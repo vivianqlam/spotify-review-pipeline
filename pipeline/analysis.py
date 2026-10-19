@@ -160,8 +160,12 @@ def _name_issues(issues, pack, members, run_dir, run_id, phase, budget):
 
 def rank(run_dir, records=None):
     """Deterministic baseline: priority = complaint_count x mean_severity = severity_sum. No model."""
-    recs = {r["review_id"]: r for r in (records if records is not None else read_jsonl(run_dir / "records.jsonl"))}
-    membership = list(_csv(run_dir / "membership.csv"))
+    if records is None:  # fresh clones only have the compressed grading export (large files are not committed)
+        p = run_dir / "records.jsonl"
+        records = read_jsonl(p if p.exists() else config.ROOT / "grading" / "records.jsonl.gz")
+    recs = {r["review_id"]: r for r in records}
+    mpath = run_dir / "membership.csv"
+    membership = list(_csv(mpath if mpath.exists() else config.ROOT / "grading" / "membership.csv"))
     issues = {i["issue_id"]: i for i in json.loads((run_dir / "issues.json").read_text())["issues"]}
     sev = defaultdict(list)
     cancels = Counter()
