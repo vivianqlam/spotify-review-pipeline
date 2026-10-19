@@ -1,0 +1,17 @@
+provider,model,tier,billing_item,usd_per_million_tokens,unit,source_url,checked_date,notes
+anthropic,claude-haiku-5-5,standard,input,0.10,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,prompts up to 100K tokens; uncached input
+anthropic,claude-haiku-5-5,standard,cache_write,0.125,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,5-minute cache write (1.25x input)
+anthropic,claude-haiku-5-5,standard,cache_read,0.01,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,cache hit (0.1x input)
+anthropic,claude-haiku-5-5,standard,output,0.50,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,thinking disabled so no reasoning tokens
+anthropic,claude-haiku-5-5,batch,input,0.05,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,Batch API 50% discount
+anthropic,claude-haiku-5-5,batch,cache_write,0.0625,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,cache multiplier stacks with batch discount
+anthropic,claude-haiku-5-5,batch,cache_read,0.005,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,cache multiplier stacks with batch discount
+anthropic,claude-haiku-5-5,batch,output,0.25,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,Batch API 50% discount
+anthropic,claude-sonnet-5-5,standard,input,2.00,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,memo writer only
+anthropic,claude-sonnet-5-5,standard,cache_write,2.50,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,
+anthropic,claude-sonnet-5-5,standard,cache_read,0.10,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,0.05x input on Sonnet 5.5
+anthropic,claude-sonnet-5-5,standard,output,10.00,token,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-19,includes any thinking tokens (billed as output)
+anthropic,claude-sonnet-5-5,batch,input,1.00,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,not used
+anthropic,claude-sonnet-5-5,batch,cache_write,1.25,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,not used
+anthropic,claude-sonnet-5-5,batch,cache_read,0.05,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,not used
+anthropic,claude-sonnet-5-5,batch,output,5.00,token,https://platform.claude.com/docs/en/about-claude/pricing#batch-processing,2026-10-19,not used

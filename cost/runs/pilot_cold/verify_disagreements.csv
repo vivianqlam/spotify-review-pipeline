@@ -1,0 +1,4 @@
+review_id,fields,enricher,verifier,planted,text
+084077ee-f9be-446a-9935-9e58550d5153,intent,"{""topic"": ""other"", ""intent"": ""praise"", ""severity"": 1}","{""intent"": ""unclear"", ""severity"": 1, ""topic"": ""other""}",False,Thik thak hi hai
+2ffdf599-a0d5-4c01-bf26-025215d44c06,topic;severity,"{""topic"": ""downloads"", ""intent"": ""cancellation"", ""severity"": 2}","{""intent"": ""cancellation"", ""severity"": 3, ""topic"": ""playback""}",False,"I like the app, but I don't like that it is always stuck downloading songs in the background and gets stuck until I open Spotify. Idk if it's clever marketing to get the user to open the app, or if it's a bug...either way it is very annoying and has forced me to consider canceling my premium after y"
+89a8e180-7846-4421-a2b6-fa7787e9d0d2,topic,"{""topic"": ""billing"", ""intent"": ""complaint"", ""severity"": 2}","{""intent"": ""complaint"", ""severity"": 2, ""topic"": ""usability""}",False,Too much restrictions

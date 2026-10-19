@@ -1,0 +1,320 @@
+{
+  "allow_multi_issue": false,
+  "issues": [
+    {
+      "description": "Users cannot log in because their account appears hacked, and support channels are not resolving the access problem.",
+      "issue_id": "ACC-account_hacked_or_lost",
+      "name": "Account hacked and locked out",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "account_hacked_or_lost",
+      "topic": "access"
+    },
+    {
+      "description": "Users report the app stops working, logs them out, or refuses to open or accept their phone number after updates.",
+      "issue_id": "ACC-general",
+      "name": "General app access failures",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "access"
+    },
+    {
+      "description": "Users are logged out unexpectedly or cannot sign in to their existing accounts despite trying.",
+      "issue_id": "ACC-login_failure",
+      "name": "Unable to log in",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "login_failure",
+      "topic": "access"
+    },
+    {
+      "description": "Users cannot log in even after resetting their password, with incorrect password errors persisting.",
+      "issue_id": "ACC-password_reset",
+      "name": "Login fails despite password reset",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "password_reset",
+      "topic": "access"
+    },
+    {
+      "description": "New users cannot complete account sign-up, getting errors or repeated prompts instead of a working account.",
+      "issue_id": "ACC-signup",
+      "name": "Cannot create or sign up",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "signup",
+      "topic": "access"
+    },
+    {
+      "description": "Users are charged after cancelling or cannot complete payment, and report being left without working access.",
+      "issue_id": "BIL-charges_refunds",
+      "name": "Charged after cancelling or unable to pay",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "charges_refunds",
+      "topic": "billing"
+    },
+    {
+      "description": "Users report being pushed toward premium, failing to pay in-app with \"unable to connect\" errors, and losing basic playback without a subscription.",
+      "issue_id": "BIL-general",
+      "name": "Payment and paywall frustrations",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "billing"
+    },
+    {
+      "description": "Free users find core playback features restricted and heavy ads, while paid users sometimes see inconsistent subscription status.",
+      "issue_id": "BIL-premium_paywall_free_limits",
+      "name": "Free tier features locked behind premium",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "premium_paywall_free_limits",
+      "topic": "billing"
+    },
+    {
+      "description": "Users feel the premium subscription is too expensive for the value, especially alongside ads and bugs.",
+      "issue_id": "BIL-price",
+      "name": "Premium price seen as too high",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "price",
+      "topic": "billing"
+    },
+    {
+      "description": "Users lose family or premium plans after changing payment details, or cannot start an individual subscription.",
+      "issue_id": "BIL-subscription_management",
+      "name": "Subscription changes cause access loss",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "subscription_management",
+      "topic": "billing"
+    },
+    {
+      "description": "Users report wrong songs playing, search results missing or mismatched, and restricted artist catalogues.",
+      "issue_id": "CAT-general",
+      "name": "Song selection and matching errors",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users report that lyrics fail to load or have disappeared from songs they play.",
+      "issue_id": "CAT-lyrics",
+      "name": "Lyrics not loading or missing",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "lyrics",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users find songs, specials, or features that were previously available have been removed or are unavailable in their region.",
+      "issue_id": "CAT-missing_or_removed_content",
+      "name": "Songs and shows unavailable",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "missing_or_removed_content",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users report missing podcast history, unavailable audiobooks or video podcasts, and podcast playback problems.",
+      "issue_id": "CAT-podcasts_audiobooks",
+      "name": "Podcast and audiobook gaps",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "podcasts_audiobooks",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users say the app plays recommended songs instead of the playlists they selected, and offline playback of downloads stalls.",
+      "issue_id": "CAT-recommendations_repetition",
+      "name": "Recommendations override chosen playlists",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "recommendations_repetition",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users cannot find songs or artists through search, which often shows no results or fails to load.",
+      "issue_id": "CAT-search",
+      "name": "Search returns nothing",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "search",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users cannot download music, or downloads fail to save to storage or require a subscription first.",
+      "issue_id": "DOW-download_failures",
+      "name": "Downloads fail or won't save",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "download_failures",
+      "topic": "downloads"
+    },
+    {
+      "description": "Users find their downloaded songs and playlists gone after updates or time passing, with no fix from support.",
+      "issue_id": "DOW-downloads_disappear",
+      "name": "Downloaded music vanishes",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "downloads_disappear",
+      "topic": "downloads"
+    },
+    {
+      "description": "Users have trouble adding local files, saving to SD cards, and syncing playlists across devices.",
+      "issue_id": "DOW-general",
+      "name": "Local files and storage problems",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "downloads"
+    },
+    {
+      "description": "Users find downloaded music will not play offline, or offline mode times out or disappears entirely.",
+      "issue_id": "DOW-offline_playback",
+      "name": "Offline playback fails",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "offline_playback",
+      "topic": "downloads"
+    },
+    {
+      "description": "Users report the app stopped working or was compromised, with vague complaints not tied to a specific feature.",
+      "issue_id": "OTH-general",
+      "name": "Miscellaneous app breakdowns",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "other"
+    },
+    {
+      "description": "Users hear no sound from music, distorted or low-quality audio, or volume problems while other apps work fine.",
+      "issue_id": "PLA-audio_quality",
+      "name": "No sound or poor audio quality",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "audio_quality",
+      "topic": "playback"
+    },
+    {
+      "description": "The app fails to launch even after clearing cache, drains battery, or uses excessive storage and background data.",
+      "issue_id": "PLA-battery_storage_data",
+      "name": "Launch failures and heavy resource use",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "battery_storage_data",
+      "topic": "playback"
+    },
+    {
+      "description": "Users see \"no internet connection\" messages or endless loading even when their network and other apps work fine.",
+      "issue_id": "PLA-connectivity_and_devices",
+      "name": "False no-internet errors",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "connectivity_and_devices",
+      "topic": "playback"
+    },
+    {
+      "description": "Users report the app crashing repeatedly, closing unexpectedly, or refusing to open after updates.",
+      "issue_id": "PLA-crash_or_wont_open",
+      "name": "App crashes or won't open",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "crash_or_wont_open",
+      "topic": "playback"
+    },
+    {
+      "description": "Users report music will not play or load, sometimes requiring reinstalls, with no clear cause.",
+      "issue_id": "PLA-general",
+      "name": "Playback fails to start",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "playback"
+    },
+    {
+      "description": "The app loads slowly or freezes on a logo or black screen, and songs or playlists take ages to start.",
+      "issue_id": "PLA-lag_loading",
+      "name": "Slow loading and stuck screens",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "lag_loading",
+      "topic": "playback"
+    },
+    {
+      "description": "Songs stop randomly, cannot be skipped, or exit the app during playback, particularly after updates.",
+      "issue_id": "PLA-stops_skips_pauses",
+      "name": "Playback stops unexpectedly",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "stops_skips_pauses",
+      "topic": "playback"
+    },
+    {
+      "description": "Users find customer support unhelpful, slow to respond, or stuck in loops, and report problems with support features like email.",
+      "issue_id": "SUP-general",
+      "name": "Support is slow or unhelpful",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "support"
+    },
+    {
+      "description": "Free users face frequent ads, including ads mid-song, and limited listening time before ads resume.",
+      "issue_id": "USA-ads_interruptions",
+      "name": "Ads interrupt free listening",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "ads_interruptions",
+      "topic": "usability"
+    },
+    {
+      "description": "Users encounter blank screens, awkward navigation, and playback that does not match what they tapped.",
+      "issue_id": "USA-general",
+      "name": "Navigation and display glitches",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "general",
+      "topic": "usability"
+    },
+    {
+      "description": "Users find playlists stop after one song, skip to unrelated music, or fail to show their chosen tracks and genres.",
+      "issue_id": "USA-library_playlist_management",
+      "name": "Playlists play wrong or stop",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "library_playlist_management",
+      "topic": "usability"
+    },
+    {
+      "description": "Users cannot skip, rewind, or choose songs freely, and shuffle or car mode changes make controls harder to use.",
+      "issue_id": "USA-shuffle_queue_controls",
+      "name": "Shuffle and skip controls restricted",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "shuffle_queue_controls",
+      "topic": "usability"
+    },
+    {
+      "description": "Users say the redesigned interface is hard to use or crashes the app, and they want the earlier design back.",
+      "issue_id": "USA-ui_redesign",
+      "name": "Disliked new interface design",
+      "name_source": "claude-haiku-5-5:msg_011CgC5ghFNZMsvuLikM5Y2k",
+      "subtopic": "ui_redesign",
+      "topic": "usability"
+    }
+  ],
+  "membership_rule": "one issue per completed complaint/cancellation record: topic + first matching keyword subtopic, else general",
+  "rules": {
+    "access": [
+      "password_reset",
+      "account_hacked_or_lost",
+      "login_failure",
+      "signup"
+    ],
+    "billing": [
+      "premium_paywall_free_limits",
+      "charges_refunds",
+      "price",
+      "subscription_management"
+    ],
+    "catalog": [
+      "lyrics",
+      "recommendations_repetition",
+      "search",
+      "podcasts_audiobooks",
+      "missing_or_removed_content"
+    ],
+    "downloads": [
+      "downloads_disappear",
+      "offline_playback",
+      "download_failures"
+    ],
+    "other": [],
+    "playback": [
+      "crash_or_wont_open",
+      "connectivity_and_devices",
+      "stops_skips_pauses",
+      "lag_loading",
+      "audio_quality",
+      "battery_storage_data"
+    ],
+    "support": [],
+    "usability": [
+      "ads_interruptions",
+      "shuffle_queue_controls",
+      "library_playlist_management",
+      "ui_redesign"
+    ]
+  }
+}

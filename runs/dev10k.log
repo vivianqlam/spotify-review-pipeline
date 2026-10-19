@@ -1,0 +1,226 @@
+[ingest] 10000 rows, 8448 distinct nonempty texts, 0 empty -> quarantine (0.08s)
+[enrich] initial completed=50 pending=8398 quarantined=0 requests_sent=169 spent=$0.0734 elapsed=7s
+[enrich] initial completed=100 pending=8348 quarantined=0 requests_sent=169 spent=$0.0744 elapsed=7s
+[enrich] initial completed=150 pending=8298 quarantined=0 requests_sent=169 spent=$0.0756 elapsed=7s
+[enrich] initial completed=200 pending=8248 quarantined=0 requests_sent=169 spent=$0.0768 elapsed=8s
+[enrich] initial completed=250 pending=8198 quarantined=0 requests_sent=169 spent=$0.0775 elapsed=11s
+[enrich] initial completed=300 pending=8148 quarantined=0 requests_sent=169 spent=$0.0783 elapsed=11s
+[enrich] initial completed=350 pending=8098 quarantined=0 requests_sent=169 spent=$0.0791 elapsed=13s
+[enrich] initial completed=400 pending=8048 quarantined=0 requests_sent=169 spent=$0.0800 elapsed=13s
+[enrich] initial completed=450 pending=7998 quarantined=0 requests_sent=169 spent=$0.0808 elapsed=15s
+[enrich] initial completed=500 pending=7948 quarantined=0 requests_sent=169 spent=$0.0815 elapsed=17s
+[enrich] initial completed=550 pending=7898 quarantined=0 requests_sent=169 spent=$0.0825 elapsed=17s
+[enrich] initial completed=600 pending=7848 quarantined=0 requests_sent=169 spent=$0.0834 elapsed=18s
+[enrich] initial completed=650 pending=7798 quarantined=0 requests_sent=169 spent=$0.0842 elapsed=20s
+[enrich] initial completed=700 pending=7748 quarantined=0 requests_sent=169 spent=$0.0853 elapsed=23s
+[enrich] initial completed=750 pending=7698 quarantined=0 requests_sent=169 spent=$0.0864 elapsed=23s
+[enrich] initial completed=800 pending=7648 quarantined=0 requests_sent=169 spent=$0.0876 elapsed=24s
+[enrich] initial completed=850 pending=7598 quarantined=0 requests_sent=169 spent=$0.0884 elapsed=24s
+[enrich] initial completed=900 pending=7548 quarantined=0 requests_sent=169 spent=$0.0890 elapsed=27s
+[enrich] initial completed=950 pending=7498 quarantined=0 requests_sent=169 spent=$0.0900 elapsed=29s
+[enrich] initial completed=1000 pending=7448 quarantined=0 requests_sent=169 spent=$0.0909 elapsed=30s
+[enrich] initial completed=1050 pending=7398 quarantined=0 requests_sent=169 spent=$0.0918 elapsed=31s
+[enrich] initial completed=1100 pending=7348 quarantined=0 requests_sent=169 spent=$0.0927 elapsed=32s
+[enrich] initial completed=1150 pending=7298 quarantined=0 requests_sent=169 spent=$0.0934 elapsed=34s
+[enrich] initial completed=1200 pending=7248 quarantined=0 requests_sent=169 spent=$0.0945 elapsed=35s
+[enrich] initial completed=1250 pending=7198 quarantined=0 requests_sent=169 spent=$0.0954 elapsed=36s
+[enrich] initial completed=1300 pending=7148 quarantined=0 requests_sent=169 spent=$0.0963 elapsed=37s
+[enrich] initial completed=1350 pending=7098 quarantined=0 requests_sent=169 spent=$0.0971 elapsed=39s
+[enrich] initial completed=1400 pending=7048 quarantined=0 requests_sent=169 spent=$0.0979 elapsed=40s
+[enrich] initial completed=1450 pending=6998 quarantined=0 requests_sent=169 spent=$0.0989 elapsed=40s
+[enrich] initial completed=1500 pending=6948 quarantined=0 requests_sent=169 spent=$0.0998 elapsed=42s
+[enrich] initial completed=1550 pending=6898 quarantined=0 requests_sent=169 spent=$0.1008 elapsed=45s
+[enrich] initial completed=1600 pending=6848 quarantined=0 requests_sent=169 spent=$0.1017 elapsed=45s
+[enrich] initial completed=1650 pending=6798 quarantined=0 requests_sent=169 spent=$0.1024 elapsed=46s
+[enrich] initial completed=1700 pending=6748 quarantined=0 requests_sent=169 spent=$0.1035 elapsed=47s
+[enrich] initial completed=1750 pending=6698 quarantined=0 requests_sent=169 spent=$0.1042 elapsed=49s
+[enrich] initial completed=1800 pending=6648 quarantined=0 requests_sent=169 spent=$0.1050 elapsed=51s
+[enrich] initial completed=1850 pending=6598 quarantined=0 requests_sent=169 spent=$0.1060 elapsed=51s
+[enrich] initial completed=1900 pending=6548 quarantined=0 requests_sent=169 spent=$0.1068 elapsed=51s
+[enrich] initial completed=1950 pending=6498 quarantined=0 requests_sent=169 spent=$0.1077 elapsed=55s
+[enrich] initial completed=2000 pending=6448 quarantined=0 requests_sent=169 spent=$0.1085 elapsed=55s
+[enrich] initial completed=2050 pending=6398 quarantined=0 requests_sent=169 spent=$0.1093 elapsed=56s
+[enrich] initial completed=2100 pending=6348 quarantined=0 requests_sent=169 spent=$0.1105 elapsed=58s
+[enrich] initial completed=2150 pending=6298 quarantined=0 requests_sent=169 spent=$0.1112 elapsed=60s
+[enrich] initial completed=2200 pending=6248 quarantined=0 requests_sent=169 spent=$0.1121 elapsed=60s
+[enrich] initial completed=2250 pending=6198 quarantined=0 requests_sent=169 spent=$0.1132 elapsed=62s
+[enrich] initial completed=2300 pending=6148 quarantined=0 requests_sent=169 spent=$0.1139 elapsed=64s
+[enrich] initial completed=2350 pending=6098 quarantined=0 requests_sent=169 spent=$0.1150 elapsed=64s
+[enrich] initial completed=2400 pending=6048 quarantined=0 requests_sent=169 spent=$0.1158 elapsed=65s
+[enrich] initial completed=2450 pending=5998 quarantined=0 requests_sent=169 spent=$0.1166 elapsed=66s
+[enrich] initial completed=2500 pending=5948 quarantined=0 requests_sent=169 spent=$0.1175 elapsed=69s
+[enrich] initial completed=2550 pending=5898 quarantined=0 requests_sent=169 spent=$0.1182 elapsed=69s
+[enrich] initial completed=2600 pending=5848 quarantined=0 requests_sent=169 spent=$0.1192 elapsed=70s
+[enrich] initial completed=2650 pending=5798 quarantined=0 requests_sent=169 spent=$0.1200 elapsed=70s
+[enrich] initial completed=2700 pending=5748 quarantined=0 requests_sent=169 spent=$0.1207 elapsed=73s
+[enrich] initial completed=2750 pending=5698 quarantined=0 requests_sent=169 spent=$0.1217 elapsed=75s
+[enrich] initial completed=2800 pending=5648 quarantined=0 requests_sent=169 spent=$0.1227 elapsed=76s
+[enrich] initial completed=2850 pending=5598 quarantined=0 requests_sent=169 spent=$0.1236 elapsed=76s
+[enrich] initial completed=2900 pending=5548 quarantined=0 requests_sent=169 spent=$0.1245 elapsed=78s
+[enrich] initial completed=2950 pending=5498 quarantined=0 requests_sent=169 spent=$0.1255 elapsed=81s
+[enrich] initial completed=3000 pending=5448 quarantined=0 requests_sent=169 spent=$0.1265 elapsed=82s
+[enrich] initial completed=3050 pending=5398 quarantined=0 requests_sent=169 spent=$0.1273 elapsed=82s
+[enrich] initial completed=3100 pending=5348 quarantined=0 requests_sent=169 spent=$0.1286 elapsed=82s
+[enrich] initial completed=3150 pending=5298 quarantined=0 requests_sent=169 spent=$0.1295 elapsed=87s
+[enrich] initial completed=3200 pending=5248 quarantined=0 requests_sent=169 spent=$0.1303 elapsed=87s
+[enrich] initial completed=3250 pending=5198 quarantined=0 requests_sent=169 spent=$0.1311 elapsed=87s
+[enrich] initial completed=3300 pending=5148 quarantined=0 requests_sent=169 spent=$0.1322 elapsed=89s
+[enrich] initial completed=3350 pending=5098 quarantined=0 requests_sent=169 spent=$0.1330 elapsed=91s
+[enrich] initial completed=3400 pending=5048 quarantined=0 requests_sent=169 spent=$0.1337 elapsed=91s
+[enrich] initial completed=3450 pending=4998 quarantined=0 requests_sent=169 spent=$0.1346 elapsed=92s
+[enrich] initial completed=3500 pending=4948 quarantined=0 requests_sent=169 spent=$0.1353 elapsed=93s
+[enrich] initial completed=3550 pending=4898 quarantined=0 requests_sent=169 spent=$0.1371 elapsed=97s
+[enrich] initial completed=3600 pending=4848 quarantined=0 requests_sent=169 spent=$0.1371 elapsed=97s
+[enrich] initial completed=3650 pending=4798 quarantined=0 requests_sent=169 spent=$0.1382 elapsed=98s
+[enrich] initial completed=3700 pending=4748 quarantined=0 requests_sent=169 spent=$0.1390 elapsed=98s
+[enrich] initial completed=3750 pending=4698 quarantined=0 requests_sent=169 spent=$0.1397 elapsed=100s
+[enrich] initial completed=3800 pending=4648 quarantined=0 requests_sent=169 spent=$0.1405 elapsed=101s
+[enrich] initial completed=3850 pending=4598 quarantined=0 requests_sent=169 spent=$0.1412 elapsed=102s
+[enrich] initial completed=3900 pending=4548 quarantined=0 requests_sent=169 spent=$0.1420 elapsed=103s
+[enrich] initial completed=3950 pending=4498 quarantined=0 requests_sent=169 spent=$0.1431 elapsed=107s
+[enrich] initial completed=4000 pending=4448 quarantined=0 requests_sent=169 spent=$0.1438 elapsed=107s
+[enrich] initial completed=4050 pending=4398 quarantined=0 requests_sent=169 spent=$0.1448 elapsed=107s
+[enrich] initial completed=4100 pending=4348 quarantined=0 requests_sent=169 spent=$0.1457 elapsed=107s
+[enrich] initial completed=4150 pending=4298 quarantined=0 requests_sent=169 spent=$0.1464 elapsed=111s
+[enrich] initial completed=4200 pending=4248 quarantined=0 requests_sent=169 spent=$0.1472 elapsed=112s
+[enrich] initial completed=4250 pending=4198 quarantined=0 requests_sent=169 spent=$0.1481 elapsed=112s
+[enrich] initial completed=4300 pending=4148 quarantined=0 requests_sent=169 spent=$0.1493 elapsed=115s
+[enrich] initial completed=4350 pending=4098 quarantined=0 requests_sent=169 spent=$0.1501 elapsed=116s
+[enrich] initial completed=4400 pending=4048 quarantined=0 requests_sent=169 spent=$0.1508 elapsed=117s
+[enrich] initial completed=4450 pending=3998 quarantined=0 requests_sent=169 spent=$0.1525 elapsed=120s
+[enrich] initial completed=4500 pending=3948 quarantined=0 requests_sent=169 spent=$0.1534 elapsed=120s
+[enrich] initial completed=4550 pending=3898 quarantined=0 requests_sent=169 spent=$0.1542 elapsed=121s
+[enrich] initial completed=4600 pending=3848 quarantined=0 requests_sent=169 spent=$0.1551 elapsed=122s
+[enrich] initial completed=4650 pending=3798 quarantined=0 requests_sent=169 spent=$0.1560 elapsed=125s
+[enrich] initial completed=4700 pending=3748 quarantined=0 requests_sent=169 spent=$0.1569 elapsed=125s
+[enrich] initial completed=4750 pending=3698 quarantined=0 requests_sent=169 spent=$0.1576 elapsed=126s
+[enrich] initial completed=4800 pending=3648 quarantined=0 requests_sent=169 spent=$0.1587 elapsed=129s
+[enrich] initial completed=4850 pending=3598 quarantined=0 requests_sent=169 spent=$0.1594 elapsed=129s
+[enrich] initial completed=4900 pending=3548 quarantined=0 requests_sent=169 spent=$0.1602 elapsed=129s
+[enrich] initial completed=4950 pending=3498 quarantined=0 requests_sent=169 spent=$0.1610 elapsed=133s
+[enrich] initial completed=5000 pending=3448 quarantined=0 requests_sent=169 spent=$0.1623 elapsed=134s
+[enrich] initial completed=5050 pending=3398 quarantined=0 requests_sent=169 spent=$0.1631 elapsed=134s
+[enrich] initial completed=5100 pending=3348 quarantined=0 requests_sent=169 spent=$0.1642 elapsed=135s
+[enrich] initial completed=5150 pending=3298 quarantined=0 requests_sent=169 spent=$0.1649 elapsed=138s
+[enrich] initial completed=5200 pending=3248 quarantined=0 requests_sent=169 spent=$0.1659 elapsed=139s
+[enrich] initial completed=5250 pending=3198 quarantined=0 requests_sent=169 spent=$0.1669 elapsed=140s
+[enrich] initial completed=5300 pending=3148 quarantined=0 requests_sent=169 spent=$0.1680 elapsed=142s
+[enrich] initial completed=5350 pending=3098 quarantined=0 requests_sent=169 spent=$0.1688 elapsed=142s
+[enrich] initial completed=5400 pending=3048 quarantined=0 requests_sent=169 spent=$0.1698 elapsed=145s
+[enrich] initial completed=5450 pending=2998 quarantined=0 requests_sent=169 spent=$0.1707 elapsed=145s
+[enrich] initial completed=5500 pending=2948 quarantined=0 requests_sent=169 spent=$0.1714 elapsed=146s
+[enrich] initial completed=5550 pending=2898 quarantined=0 requests_sent=169 spent=$0.1723 elapsed=147s
+[enrich] initial completed=5600 pending=2848 quarantined=0 requests_sent=169 spent=$0.1731 elapsed=150s
+[enrich] initial completed=5650 pending=2798 quarantined=0 requests_sent=169 spent=$0.1738 elapsed=151s
+[enrich] initial completed=5700 pending=2748 quarantined=0 requests_sent=169 spent=$0.1748 elapsed=152s
+[enrich] initial completed=5750 pending=2698 quarantined=0 requests_sent=169 spent=$0.1761 elapsed=152s
+[enrich] initial completed=5800 pending=2648 quarantined=0 requests_sent=169 spent=$0.1770 elapsed=156s
+[enrich] initial completed=5850 pending=2598 quarantined=0 requests_sent=169 spent=$0.1788 elapsed=157s
+[enrich] initial completed=5900 pending=2548 quarantined=0 requests_sent=169 spent=$0.1788 elapsed=157s
+[enrich] initial completed=5950 pending=2498 quarantined=0 requests_sent=169 spent=$0.1800 elapsed=158s
+[enrich] initial completed=6000 pending=2448 quarantined=0 requests_sent=169 spent=$0.1806 elapsed=160s
+[enrich] initial completed=6050 pending=2398 quarantined=0 requests_sent=169 spent=$0.1814 elapsed=161s
+[enrich] initial completed=6100 pending=2348 quarantined=0 requests_sent=169 spent=$0.1824 elapsed=162s
+[enrich] initial completed=6150 pending=2298 quarantined=0 requests_sent=169 spent=$0.1837 elapsed=166s
+[enrich] initial completed=6200 pending=2248 quarantined=0 requests_sent=169 spent=$0.1848 elapsed=166s
+[enrich] initial completed=6250 pending=2198 quarantined=0 requests_sent=169 spent=$0.1855 elapsed=166s
+[enrich] initial completed=6300 pending=2148 quarantined=0 requests_sent=169 spent=$0.1865 elapsed=167s
+[enrich] initial completed=6350 pending=2098 quarantined=0 requests_sent=169 spent=$0.1874 elapsed=171s
+[enrich] initial completed=6400 pending=2048 quarantined=0 requests_sent=169 spent=$0.1884 elapsed=172s
+[enrich] initial completed=6450 pending=1998 quarantined=0 requests_sent=169 spent=$0.1894 elapsed=172s
+[enrich] initial completed=6500 pending=1948 quarantined=0 requests_sent=169 spent=$0.1903 elapsed=173s
+[enrich] initial completed=6550 pending=1898 quarantined=0 requests_sent=169 spent=$0.1910 elapsed=175s
+[enrich] initial completed=6600 pending=1848 quarantined=0 requests_sent=169 spent=$0.1920 elapsed=177s
+[enrich] initial completed=6650 pending=1798 quarantined=0 requests_sent=169 spent=$0.1929 elapsed=178s
+[enrich] initial completed=6699 pending=1749 quarantined=0 requests_sent=169 spent=$0.1939 elapsed=178s
+[enrich] initial completed=6749 pending=1699 quarantined=0 requests_sent=169 spent=$0.1951 elapsed=181s
+[enrich] initial completed=6799 pending=1649 quarantined=0 requests_sent=169 spent=$0.1960 elapsed=182s
+[enrich] initial completed=6849 pending=1599 quarantined=0 requests_sent=169 spent=$0.1967 elapsed=182s
+[enrich] initial completed=6899 pending=1549 quarantined=0 requests_sent=169 spent=$0.1976 elapsed=182s
+[enrich] initial completed=6949 pending=1499 quarantined=0 requests_sent=169 spent=$0.1984 elapsed=186s
+[enrich] initial completed=6999 pending=1449 quarantined=0 requests_sent=169 spent=$0.1991 elapsed=186s
+[enrich] initial completed=7049 pending=1399 quarantined=0 requests_sent=169 spent=$0.2001 elapsed=188s
+[enrich] initial completed=7099 pending=1349 quarantined=0 requests_sent=169 spent=$0.2011 elapsed=188s
+[enrich] initial completed=7149 pending=1299 quarantined=0 requests_sent=169 spent=$0.2018 elapsed=190s
+[enrich] initial completed=7199 pending=1249 quarantined=0 requests_sent=169 spent=$0.2027 elapsed=192s
+[enrich] initial completed=7249 pending=1199 quarantined=0 requests_sent=169 spent=$0.2034 elapsed=192s
+[enrich] initial completed=7299 pending=1149 quarantined=0 requests_sent=169 spent=$0.2043 elapsed=193s
+[enrich] initial completed=7349 pending=1099 quarantined=0 requests_sent=169 spent=$0.2051 elapsed=195s
+[enrich] initial completed=7399 pending=1049 quarantined=0 requests_sent=169 spent=$0.2060 elapsed=197s
+[enrich] initial completed=7449 pending=999 quarantined=0 requests_sent=169 spent=$0.2068 elapsed=198s
+[enrich] initial completed=7499 pending=949 quarantined=0 requests_sent=169 spent=$0.2079 elapsed=199s
+[enrich] initial completed=7549 pending=899 quarantined=0 requests_sent=169 spent=$0.2087 elapsed=200s
+[enrich] initial completed=7599 pending=849 quarantined=0 requests_sent=169 spent=$0.2095 elapsed=203s
+[enrich] initial completed=7649 pending=799 quarantined=0 requests_sent=169 spent=$0.2104 elapsed=204s
+[enrich] initial completed=7699 pending=749 quarantined=0 requests_sent=169 spent=$0.2120 elapsed=206s
+[enrich] initial completed=7749 pending=699 quarantined=0 requests_sent=169 spent=$0.2128 elapsed=207s
+[enrich] initial completed=7799 pending=649 quarantined=0 requests_sent=169 spent=$0.2141 elapsed=207s
+[enrich] initial completed=7849 pending=599 quarantined=0 requests_sent=169 spent=$0.2163 elapsed=211s
+[enrich] initial completed=7899 pending=549 quarantined=0 requests_sent=169 spent=$0.2163 elapsed=211s
+[enrich] initial completed=7949 pending=499 quarantined=0 requests_sent=169 spent=$0.2171 elapsed=212s
+[enrich] initial completed=7999 pending=449 quarantined=0 requests_sent=169 spent=$0.2179 elapsed=212s
+[enrich] initial completed=8049 pending=399 quarantined=0 requests_sent=169 spent=$0.2187 elapsed=216s
+[enrich] initial completed=8099 pending=349 quarantined=0 requests_sent=169 spent=$0.2194 elapsed=216s
+[enrich] initial completed=8149 pending=299 quarantined=0 requests_sent=169 spent=$0.2203 elapsed=216s
+[enrich] initial completed=8199 pending=249 quarantined=0 requests_sent=169 spent=$0.2212 elapsed=217s
+[enrich] initial completed=8249 pending=199 quarantined=0 requests_sent=169 spent=$0.2220 elapsed=220s
+[enrich] initial completed=8299 pending=149 quarantined=0 requests_sent=169 spent=$0.2229 elapsed=222s
+[enrich] initial completed=8349 pending=99 quarantined=0 requests_sent=169 spent=$0.2241 elapsed=222s
+[enrich] initial completed=8399 pending=49 quarantined=0 requests_sent=169 spent=$0.2251 elapsed=224s
+[enrich] initial completed=8447 pending=1 quarantined=0 requests_sent=169 spent=$0.2259 elapsed=225s
+[enrich] initial completed=8448 pending=0 quarantined=0 requests_sent=170 spent=$0.2259 elapsed=226s
+[enrich] {"completed": 8448, "retry": 1, "quarantined": 0, "failed_requests": 0, "wall_seconds": 225.77} {'completed': 8448, 'source_rows': 10000, 'empty_rows': 0}
+[verify] {"topic": 0.8533, "intent": 0.8933, "severity": 0.85, "all": 0.6733} disagreements: 98 planted caught: 25 / 25
+[records] {'completed': 10000, 'quarantined': 0}
+[group] 34 issues, 4536 memberships
+[rank] top 5: [('OTH-general', 2739), ('BIL-general', 1003), ('USA-ads_interruptions', 920), ('BIL-premium_paywall_free_limits', 779), ('PLA-general', 620)]
+{
+ "run_id": "dev10k",
+ "counts": {
+  "completed": 8448,
+  "source_rows": 10000,
+  "empty_rows": 0
+ },
+ "calls_by_role": {
+  "enrich": {
+   "attempts": 170,
+   "succeeded": 170,
+   "failed": 0,
+   "input_tokens": 339902,
+   "output_tokens": 232942,
+   "cache_read": 303620,
+   "cache_write": 0,
+   "cost_usd": 0.15349739999999998
+  },
+  "verify": {
+   "attempts": 6,
+   "succeeded": 6,
+   "failed": 0,
+   "input_tokens": 11970,
+   "output_tokens": 3057,
+   "cache_read": 3402,
+   "cache_write": 0,
+   "cost_usd": 0.0027595199999999997
+  },
+  "group": {
+   "attempts": 1,
+   "succeeded": 1,
+   "failed": 0,
+   "input_tokens": 14724,
+   "output_tokens": 1815,
+   "cache_read": 0,
+   "cache_write": 0,
+   "cost_usd": 0.0023799
+  }
+ },
+ "run_cost_usd": 0.158637,
+ "global_spend_usd": 0.235078,
+ "budget_usd": 10.0,
+ "label_config": "claude-haiku-5-5+enrich_v1+schema_v1+effort-low+thinking-off",
+ "models": {
+  "enrich": "claude-haiku-5-5",
+  "verify": "claude-haiku-5-5",
+  "group": "claude-haiku-5-5",
+  "memo": "claude-sonnet-5-5"
+ }
+}

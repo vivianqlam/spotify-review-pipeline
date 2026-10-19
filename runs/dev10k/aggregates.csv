@@ -1,0 +1,35 @@
+rank,issue_id,topic,name,complaint_count,cancellation_count,severity_4_plus,severity_sum,mean_severity,priority_score
+1,OTH-general,other,Miscellaneous app breakdowns,1385,105,7,2739,1.977617,2739
+2,BIL-general,billing,Payment and paywall frustrations,403,74,14,1003,2.488834,1003
+3,USA-ads_interruptions,usability,Ads interrupt free listening,439,33,1,920,2.095672,920
+4,BIL-premium_paywall_free_limits,billing,Free tier features locked behind premium,290,56,4,779,2.686207,779
+5,PLA-general,playback,Playback fails to start,208,8,48,620,2.980769,620
+6,USA-general,usability,Navigation and display glitches,258,20,1,574,2.224806,574
+7,USA-shuffle_queue_controls,usability,Shuffle and skip controls restricted,215,30,1,564,2.623256,564
+8,ACC-login_failure,access,Unable to log in,95,7,83,366,3.852632,366
+9,PLA-stops_skips_pauses,playback,Playback stops unexpectedly,112,13,18,349,3.116071,349
+10,USA-ui_redesign,usability,Disliked new interface design,138,19,5,335,2.427536,335
+11,PLA-connectivity_and_devices,playback,False no-internet errors,88,6,24,279,3.170455,279
+12,CAT-general,catalog,Song selection and matching errors,113,5,0,275,2.433628,275
+13,USA-library_playlist_management,usability,Playlists play wrong or stop,100,7,1,251,2.510000,251
+14,BIL-charges_refunds,billing,Charged after cancelling or unable to pay,93,21,10,246,2.645161,246
+15,ACC-general,access,General app access failures,68,3,44,244,3.588235,244
+16,PLA-crash_or_wont_open,playback,App crashes or won't open,58,8,36,210,3.620690,210
+17,BIL-subscription_management,billing,Subscription changes cause access loss,71,25,5,178,2.507042,178
+18,CAT-lyrics,catalog,Lyrics not loading or missing,54,2,0,154,2.851852,154
+19,PLA-lag_loading,playback,Slow loading and stuck screens,51,2,9,147,2.882353,147
+20,DOW-download_failures,downloads,Downloads fail or won't save,38,2,4,114,3.000000,114
+21,CAT-missing_or_removed_content,catalog,Songs and shows unavailable,36,5,0,95,2.638889,95
+22,CAT-search,catalog,Search returns nothing,31,2,2,82,2.645161,82
+23,CAT-recommendations_repetition,catalog,Recommendations override chosen playlists,31,5,0,74,2.387097,74
+24,BIL-price,billing,Premium price seen as too high,34,6,0,72,2.117647,72
+25,DOW-general,downloads,Local files and storage problems,22,2,3,66,3.000000,66
+26,DOW-downloads_disappear,downloads,Downloaded music vanishes,17,2,10,64,3.764706,64
+27,DOW-offline_playback,downloads,Offline playback fails,18,1,4,58,3.222222,58
+28,PLA-audio_quality,playback,No sound or poor audio quality,24,0,0,56,2.333333,56
+29,ACC-password_reset,access,Login fails despite password reset,12,2,12,48,4.000000,48
+30,SUP-general,support,Support is slow or unhelpful,15,2,1,42,2.800000,42
+31,PLA-battery_storage_data,playback,Launch failures and heavy resource use,7,1,3,22,3.142857,22
+32,ACC-account_hacked_or_lost,access,Account hacked and locked out,3,1,3,14,4.666667,14
+33,ACC-signup,access,Cannot create or sign up,4,0,1,13,3.250000,13
+34,CAT-podcasts_audiobooks,catalog,Podcast and audiobook gaps,5,1,0,12,2.400000,12

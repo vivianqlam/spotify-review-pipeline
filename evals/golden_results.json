@@ -1,0 +1,189 @@
+{
+  "confusion": {
+    "intent": [
+      {
+        "count": 1,
+        "human": "cancellation",
+        "predicted": "cancellation"
+      },
+      {
+        "count": 20,
+        "human": "complaint",
+        "predicted": "complaint"
+      },
+      {
+        "count": 1,
+        "human": "complaint",
+        "predicted": "unclear"
+      },
+      {
+        "count": 1,
+        "human": "praise",
+        "predicted": "complaint"
+      },
+      {
+        "count": 20,
+        "human": "praise",
+        "predicted": "praise"
+      },
+      {
+        "count": 2,
+        "human": "praise",
+        "predicted": "unclear"
+      },
+      {
+        "count": 1,
+        "human": "request",
+        "predicted": "request"
+      },
+      {
+        "count": 1,
+        "human": "unclear",
+        "predicted": "cancellation"
+      },
+      {
+        "count": 3,
+        "human": "unclear",
+        "predicted": "unclear"
+      }
+    ],
+    "topic": [
+      {
+        "count": 3,
+        "human": "billing",
+        "predicted": "billing"
+      },
+      {
+        "count": 1,
+        "human": "billing",
+        "predicted": "usability"
+      },
+      {
+        "count": 2,
+        "human": "catalog",
+        "predicted": "catalog"
+      },
+      {
+        "count": 1,
+        "human": "catalog",
+        "predicted": "other"
+      },
+      {
+        "count": 1,
+        "human": "catalog",
+        "predicted": "playback"
+      },
+      {
+        "count": 1,
+        "human": "downloads",
+        "predicted": "downloads"
+      },
+      {
+        "count": 27,
+        "human": "other",
+        "predicted": "other"
+      },
+      {
+        "count": 2,
+        "human": "other",
+        "predicted": "usability"
+      },
+      {
+        "count": 1,
+        "human": "playback",
+        "predicted": "access"
+      },
+      {
+        "count": 2,
+        "human": "playback",
+        "predicted": "playback"
+      },
+      {
+        "count": 1,
+        "human": "playback",
+        "predicted": "usability"
+      },
+      {
+        "count": 1,
+        "human": "support",
+        "predicted": "playback"
+      },
+      {
+        "count": 1,
+        "human": "usability",
+        "predicted": "catalog"
+      },
+      {
+        "count": 1,
+        "human": "usability",
+        "predicted": "playback"
+      },
+      {
+        "count": 5,
+        "human": "usability",
+        "predicted": "usability"
+      }
+    ]
+  },
+  "note": "50 cases is a small diagnostic sample, not a population accuracy estimate.",
+  "records": "runs/full/records.jsonl",
+  "summary": {
+    "ambiguous_cases": 8,
+    "intent_agreement_pct": "90.0",
+    "n": 50,
+    "needs_review_vs_human_flag": {
+      "fn": 2,
+      "fp": 5,
+      "tp": 7
+    },
+    "per_topic": {
+      "access": {
+        "predicted": 1
+      },
+      "billing": {
+        "correct": 3,
+        "human": 4,
+        "predicted": 3
+      },
+      "catalog": {
+        "correct": 2,
+        "human": 4,
+        "predicted": 3
+      },
+      "downloads": {
+        "correct": 1,
+        "human": 1,
+        "predicted": 1
+      },
+      "other": {
+        "correct": 27,
+        "human": 29,
+        "predicted": 28
+      },
+      "playback": {
+        "correct": 2,
+        "human": 4,
+        "predicted": 5
+      },
+      "support": {
+        "correct": 0,
+        "human": 1
+      },
+      "usability": {
+        "correct": 5,
+        "human": 7,
+        "predicted": 9
+      }
+    },
+    "quote_exact_substring": "50/50",
+    "records_with_unsupported_entities": 0,
+    "sentiment_mae": "0.10",
+    "sentiment_tolerance": 0.5,
+    "sentiment_within_tolerance_pct": "96.0",
+    "severity_exact_pct": "84.0",
+    "severity_mae": "0.20",
+    "topic_agreement_on_ambiguous": "6/8",
+    "topic_agreement_pct": "80.0",
+    "valid_predictions": 50
+  }
+}

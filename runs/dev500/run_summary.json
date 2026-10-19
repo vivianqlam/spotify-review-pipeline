@@ -1,0 +1,50 @@
+{
+  "budget_usd": 10.0,
+  "calls_by_role": {
+    "enrich": {
+      "attempts": 11,
+      "cache_read": 19646,
+      "cache_write": 0,
+      "cost_usd": 0.00886836,
+      "failed": 0,
+      "input_tokens": 18869,
+      "output_tokens": 13570,
+      "succeeded": 11
+    },
+    "group": {
+      "attempts": 1,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cost_usd": 0.0016613,
+      "failed": 0,
+      "input_tokens": 8668,
+      "output_tokens": 1589,
+      "succeeded": 1
+    },
+    "verify": {
+      "attempts": 2,
+      "cache_read": 1134,
+      "cache_write": 0,
+      "cost_usd": 0.0009110400000000001,
+      "failed": 0,
+      "input_tokens": 3972,
+      "output_tokens": 1005,
+      "succeeded": 2
+    }
+  },
+  "counts": {
+    "completed": 479,
+    "empty_rows": 0,
+    "source_rows": 500
+  },
+  "global_spend_usd": 0.072428,
+  "label_config": "claude-haiku-5-5+enrich_v1+schema_v1+effort-low+thinking-off",
+  "models": {
+    "enrich": "claude-haiku-5-5",
+    "group": "claude-haiku-5-5",
+    "memo": "claude-sonnet-5-5",
+    "verify": "claude-haiku-5-5"
+  },
+  "run_cost_usd": 0.011441,
+  "run_id": "dev500"
+}

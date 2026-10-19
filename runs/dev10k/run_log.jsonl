@@ -1,0 +1,6 @@
+{"at": 1792434830.005549, "distinct": 8448, "rows": 10000, "seconds": 0.13, "stage": "ingest"}
+{"at": 1792435055.7787762, "counts": {"completed": 8448, "empty_rows": 0, "source_rows": 10000}, "mode": "sync", "phase": "initial", "result": {"completed": 8448, "failed_requests": 0, "quarantined": 0, "retry": 1, "wall_seconds": 225.77}, "seconds": 225.77, "spent_total": 0.225925755, "stage": "enrich", "workers": 4}
+{"at": 1792435070.368862, "planted": 1.0, "report": {"agreement": {"all": 0.6733, "intent": 0.8933, "severity": 0.85, "topic": 0.8533}, "disagreements": 98, "procedure": "Declared seeded random sample of completed distinct texts; verifier prompt sees only review text and the rubric, never the enricher's labels; code compares topic/intent/severity.", "sample_size": 300, "severity_mae_between_roles": 0.16, "verifier_missing": 0, "verifier_valid": 300}, "seconds": 14.58, "stage": "verify"}
+{"at": 1792435070.5032089, "completed": 10000, "quarantined": 0, "stage": "records"}
+{"at": 1792435080.0725892, "issues": 34, "memberships": 4536, "seconds": 9.54, "stage": "group"}
+{"at": 1792435080.1310139, "issues": 34, "stage": "rank"}

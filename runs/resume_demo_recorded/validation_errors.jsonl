@@ -1,0 +1,2 @@
+{"errors": {"c82fa095-ef9e-4c28-b86b-9641b7382dce": "invalid value(s): shuffle|complaint|3|-1.0|0"}, "request_id": "msg_011CgC6bz5dQobepoKQSs1P7", "stop_reason": "end_turn"}
+{"errors": {"00c5443a-bc8a-4097-8c2c-5cf4d674f324": "invalid value(s): other|other|1|0.0|1"}, "request_id": "msg_011CgC6eah3YTRjRaorVgXwQ", "stop_reason": "end_turn"}

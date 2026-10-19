@@ -1,0 +1,21 @@
+rank,issue_id,topic,name,complaint_count,cancellation_count,severity_4_plus,severity_sum,mean_severity,priority_score
+1,OTH-general,other,Assorted complaints about the app,14,3,0,28,2.000000,28
+2,BIL-premium_paywall_free_limits,billing,Free users lose skip and song selection,4,0,0,12,3.000000,12
+3,USA-shuffle_queue_controls,usability,Shuffle forced and replay controls removed,3,2,0,9,3.000000,9
+4,USA-general,usability,"Ads, bugs, and general dissatisfaction",4,1,0,8,2.000000,8
+5,USA-ui_redesign,usability,Basic player features removed in redesign,3,1,0,8,2.666667,8
+6,ACC-general,access,App stuck on loading and ad-heavy login,2,0,1,7,3.500000,7
+7,BIL-general,billing,Restrictions and ads push premium upgrade,3,0,0,7,2.333333,7
+8,USA-ads_interruptions,usability,Frequent ads interrupting songs,3,0,0,6,2.000000,6
+9,USA-library_playlist_management,usability,Playlist shuffling and homescreen redesign,2,0,0,5,2.500000,5
+10,ACC-password_reset,access,Password rejected during sign-in,1,0,1,4,4.000000,4
+11,CAT-general,catalog,Missing songs and limited gospel music,2,0,0,4,2.000000,4
+12,CAT-lyrics,catalog,Lyrics missing or inconsistently shown,2,0,0,4,2.000000,4
+13,CAT-recommendations_repetition,catalog,Recommendations clutter playlists and changed,2,1,0,4,2.000000,4
+14,PLA-crash_or_wont_open,playback,App crashes or won't open after update,1,0,1,4,4.000000,4
+15,BIL-charges_refunds,billing,Premium-only features making app worthless,1,1,0,3,3.000000,3
+16,DOW-offline_playback,downloads,Offline mode not working,1,0,0,3,3.000000,3
+17,PLA-connectivity_and_devices,playback,Wi-Fi connection failures and poor quality,1,0,0,3,3.000000,3
+18,PLA-stops_skips_pauses,playback,Playback stops and does not resume,1,0,0,3,3.000000,3
+19,CAT-podcasts_audiobooks,catalog,Switched from Pandora for podcasts,1,1,0,2,2.000000,2
+20,DOW-download_failures,downloads,Background downloads get stuck,1,1,0,2,2.000000,2

@@ -1,0 +1,30 @@
+rank,issue_id,topic,name,complaint_count,cancellation_count,severity_4_plus,severity_sum,mean_severity,priority_score
+1,OTH-general,other,Vague negative feedback on recent update,65,9,0,131,2.015385,131
+2,BIL-premium_paywall_free_limits,billing,Free tier limits and forced trials,18,4,1,52,2.888889,52
+3,BIL-general,billing,Basic features moved behind paywall,22,1,0,51,2.318182,51
+4,PLA-general,playback,"Black screens, spinning and playback failures",15,1,5,45,3.000000,45
+5,USA-ads_interruptions,usability,Frequent unskippable ads,21,0,0,42,2.000000,42
+6,USA-shuffle_queue_controls,usability,Forced shuffle and missing playback controls,12,2,1,34,2.833333,34
+7,USA-general,usability,Navigation and wrong-song playback,13,3,0,27,2.076923,27
+8,USA-ui_redesign,usability,Recent redesign removed key features,11,0,0,26,2.363636,26
+9,ACC-login_failure,access,Login failures and repeated logouts,6,1,5,23,3.833333,23
+10,CAT-general,catalog,Missing songs and unwanted picks,9,0,0,23,2.555556,23
+11,PLA-crash_or_wont_open,playback,App crashes or will not open,4,0,3,15,3.750000,15
+12,CAT-lyrics,catalog,Lyrics fail to load or appear,5,0,0,14,2.800000,14
+13,PLA-connectivity_and_devices,playback,"Wi-Fi, device and offline connectivity faults",5,0,0,14,2.800000,14
+14,PLA-stops_skips_pauses,playback,Playback stops randomly mid-song,4,1,1,13,3.250000,13
+15,USA-library_playlist_management,usability,Playlist order and library navigation broken,5,0,0,13,2.600000,13
+16,ACC-general,access,Access blocked by false no-internet errors,3,0,3,12,4.000000,12
+17,BIL-charges_refunds,billing,Paid users still blocked or overcharged,4,1,1,11,2.750000,11
+18,BIL-subscription_management,billing,Premium signup and cancellation problems,3,1,2,10,3.333333,10
+19,CAT-recommendations_repetition,catalog,Unwanted recommendations and repetitive DJ,3,0,0,7,2.333333,7
+20,DOW-downloads_disappear,downloads,Downloaded content vanishes,2,1,1,7,3.500000,7
+21,PLA-lag_loading,playback,Stuck loading and lyrics not loading,2,0,1,7,3.500000,7
+22,DOW-general,downloads,Miscellaneous download and wrap issues,2,0,0,6,3.000000,6
+23,BIL-price,billing,Premium cost seen as excessive,1,1,1,5,5.000000,5
+24,CAT-podcasts_audiobooks,catalog,Podcast playback lagging on premium,2,0,0,5,2.500000,5
+25,ACC-password_reset,access,Password rejected at sign-in,1,0,1,4,4.000000,4
+26,DOW-download_failures,downloads,Background downloads stall,1,1,0,3,3.000000,3
+27,SUP-general,support,Unresolved token error at sign-in,1,1,0,3,3.000000,3
+28,CAT-missing_or_removed_content,catalog,Songs unavailable or removed,1,0,0,2,2.000000,2
+29,PLA-battery_storage_data,playback,Excessive data and storage use,1,0,0,2,2.000000,2

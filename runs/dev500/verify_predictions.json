@@ -1,0 +1,502 @@
+{
+ "00a77161-cb3f-4fae-a7b6-eca2cfc124ec": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "02365ec7-f37a-419a-b26d-bf2467d38461": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "02777996-211f-447b-94c4-99b61f049f78": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "other"
+ },
+ "0575ce08-ab04-46f0-aa8a-fbf9cd27e8da": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "other"
+ },
+ "0658feaa-5bec-416e-b6b0-3de2a4c14580": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "catalog"
+ },
+ "084077ee-f9be-446a-9935-9e58550d5153": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "088e9ac3-8b93-4bff-8c75-032362d37b64": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "0b52ac4e-1982-46ed-aeaa-74eedaefb5c9": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "0b626430-7bf8-4ae4-9a44-f6ffc4324424": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "0be20402-efaf-482f-9635-78f166bcf538": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "0c65cf2c-7e0e-4fd6-a146-9e02126e9e13": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "10f09c93-34ef-4a3b-8ee2-97d7c00d44e0": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "11ad400f-4487-4dfa-a9da-c8d624f4f107": {
+  "intent": "cancellation",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "145ea602-b8fb-41c1-bfdd-79293a18681f": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "playback"
+ },
+ "1d1480fb-0142-46da-8570-45bf3983bf6d": {
+  "intent": "complaint",
+  "severity": 4,
+  "topic": "billing"
+ },
+ "2313bd8e-43bd-4777-bff9-3ae753288f0e": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "billing"
+ },
+ "232c669e-8bfe-4642-b0c9-229c2911cc6c": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "playback"
+ },
+ "277c75cb-ec6a-4387-902d-eb721d038db6": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "2d5cdd20-3094-40a5-bc6e-653302b59b56": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "2ffdf599-a0d5-4c01-bf26-025215d44c06": {
+  "intent": "cancellation",
+  "severity": 3,
+  "topic": "downloads"
+ },
+ "34d725ce-a365-4c28-b212-37fb9d83959a": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "4001e2ec-2621-4256-b42d-c4988458a293": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "other"
+ },
+ "40f1506e-4bbb-456a-ab3e-8c15911b62a9": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "41f67b68-df85-4685-a28c-2558abcb71c9": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "46ff0c74-5e86-4e5b-b4cd-36201aab0f9e": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "other"
+ },
+ "4a2ba740-231c-406e-a7a1-c31349e99c44": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "billing"
+ },
+ "4aee0d75-6901-426e-b0f7-11d042ccc73e": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "4b70b375-722e-4c8c-bead-89911e989040": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "50626053-301c-42fa-91aa-2f88aef82e64": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "509915ba-cf86-4baa-9bea-a73af229ca48": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "playback"
+ },
+ "5738a6ed-6cfc-48d7-b100-e9d5189ef23c": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "59f31721-b2c8-40c5-ba3c-b9fe64a58d68": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "catalog"
+ },
+ "5b70cf97-c4a0-47a1-b3ad-c55889eb4dc9": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "5d5e08d1-1686-4c86-b9bd-cb0f3a719e0b": {
+  "intent": "cancellation",
+  "severity": 2,
+  "topic": "other"
+ },
+ "62b53e0a-0397-4200-826f-122d18fdde32": {
+  "intent": "cancellation",
+  "severity": 2,
+  "topic": "other"
+ },
+ "6531323c-f8ae-4103-8bb1-d021bcd7efe8": {
+  "intent": "request",
+  "severity": 1,
+  "topic": "catalog"
+ },
+ "66c1f7bf-096a-4ecd-aeaf-6c534e326ad1": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "686fa8a8-f220-4ddd-b283-d61dd242051a": {
+  "intent": "cancellation",
+  "severity": 3,
+  "topic": "access"
+ },
+ "68edb14c-aa3c-4d89-918b-d26550902f5d": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "6906dfd7-a45a-4d04-aa74-5f34b1ca5ed5": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "6a2cd434-9ad2-4e66-8968-ad066659d4df": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "6a4f84b4-18e2-47d9-adb8-2461a9319c11": {
+  "intent": "cancellation",
+  "severity": 3,
+  "topic": "billing"
+ },
+ "6a5955ed-feb5-4941-a2fd-4cb2783899d1": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "6ba8fc67-700c-4d33-ad84-ef67a05b2ae1": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "6eb64519-37d4-4591-a47a-bbb96357de36": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "other"
+ },
+ "7084ced1-0428-4093-9328-442f74719b4f": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "710e1aee-ed80-4753-9c4e-c63bee84fd56": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "7184c35e-b707-409a-bac4-5285dac64eae": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "7a5919ad-16d4-4f29-8e6e-1041415d7eee": {
+  "intent": "cancellation",
+  "severity": 3,
+  "topic": "billing"
+ },
+ "7e610236-5f6a-404f-a503-ed466c6700eb": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "billing"
+ },
+ "7f057d48-0855-4325-950b-44f9e6fc2ee1": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "7f1073d4-34a7-45b2-80b8-e0c1edcfaa5e": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "84353026-5e56-4ca4-bfa4-e006d021ef44": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "884e8712-da13-4890-a39e-731b69f42d6c": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "89a8e180-7846-4421-a2b6-fa7787e9d0d2": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "8b47c5d7-d31c-4aae-b00d-d62217ae55fc": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "8b8e60dc-c64c-4c65-9e5c-5bb2df16d384": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "8b9d84a8-f650-4272-b332-4d60cb42377d": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "playback"
+ },
+ "8f8c0461-4c41-4829-af15-b2991f18adfe": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "94fd7069-c8e1-4f09-9651-dd9f5cfefff4": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "9d851b7f-a738-449b-a841-de8076f13276": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "9f1daf2a-dc11-466c-bc25-8c5d20a62690": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "9f46904c-4ed3-4799-8949-379b949c7344": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "9f7a013a-082e-4ec1-8a65-a1e0a0395d20": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "catalog"
+ },
+ "a3605554-5c3a-441d-836e-e9fdea83eb2e": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "billing"
+ },
+ "aa8fec15-2de4-46af-a911-1b49bcb4eb4c": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "billing"
+ },
+ "ac581cea-24f2-4251-a062-53cdd77cfed7": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "ad718533-a53f-475b-b200-58ab07d07d5b": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "aea961b7-0d0c-4e46-bbf7-1fb4d7bdd437": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "aeee488a-2077-489d-8914-1e01d5f7672f": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "af53cf35-c680-4ccb-b30c-cfd85bb61c57": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "b03d6dc9-449a-4647-b112-559186656759": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "downloads"
+ },
+ "b45ac639-166c-4089-a716-d462162a918b": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "b7b8c665-4ca5-4123-8ff4-fc874a4a7f93": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "bb1a158b-e781-4a16-855b-d4f04a61002c": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "bb77bfb2-6eb8-4c6c-88bb-491c7da75196": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "other"
+ },
+ "bc1c4825-00c5-458d-ac00-098ce729c76d": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "billing"
+ },
+ "bcdf315e-c82d-41f0-9fcd-ba5933dfe77e": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "playback"
+ },
+ "c1fe1a70-f5ec-4009-bad6-b75437ba1c0b": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "c3fd591f-890c-4721-bd99-57c3600ae82c": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "cc646d29-b636-43e2-b980-bbbed306ba6b": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "d3b74f36-aa48-42af-ae4a-d4a8b0499a60": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "playback"
+ },
+ "d635d6c8-460e-452f-8d53-6cd1ea804e98": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "billing"
+ },
+ "d767f1af-e8eb-41af-9cc4-8bfa35253870": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "playback"
+ },
+ "dc73ecd9-3293-4ede-90d5-dd6cd1e8d087": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "dcff57c6-abd6-413b-b255-aec3dc34fcbd": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "downloads"
+ },
+ "df239418-e786-4b6f-9545-6946e1960b89": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "catalog"
+ },
+ "e04b40b8-4ac0-4058-aa91-89986d53586a": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "usability"
+ },
+ "e07b648e-f8f8-42d6-ace5-394f28d8a1b2": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "e27a8abd-a52e-469b-a0db-79ce8711226c": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "e3238297-f942-4c8e-96f7-b951b461e707": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "e69dc5e0-1317-424e-a778-6081914a7b85": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "e760f409-29cb-4df0-a601-21534b0c7062": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "e87bc648-9eac-428a-8f68-3ad17e1ed699": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "e8f2fb9b-ad3b-4fec-8194-ab67956ee50a": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "ec8d58bf-f9e2-42c6-870b-b87c78fe569f": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "f40fbd38-16c4-46fb-ac1f-35d28fb5a48e": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "catalog"
+ },
+ "f67fefbf-9055-4f7c-a777-80446653997c": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "billing"
+ },
+ "f6f9c680-0970-443f-b422-b1a6ad85e7ce": {
+  "intent": "complaint",
+  "severity": 4,
+  "topic": "access"
+ },
+ "f782a3f3-b0c8-475c-a34c-cda0fefa272e": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "billing"
+ }
+}

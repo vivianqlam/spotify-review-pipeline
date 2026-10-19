@@ -1,0 +1,6 @@
+pilot_run,role,model,mode,request_id,outcome,attempt,n_review_ids,settings,input_tokens,cache_creation_input_tokens,cache_read_input_tokens,output_tokens,latency_s,logged_cost_usd,recomputed_cost_usd
+cold,enrich,claude-haiku-5-5,sync,msg_011CgC5F87dE86C9BvEcJDcv,succeeded,1,50,"{""output_config"": {""effort"": ""low""}, ""thinking"": {""type"": ""disabled""}}",1956,0,1786,1882,6.71,0.00115446,0.00115446
+cold,enrich,claude-haiku-5-5,sync,msg_011CgC5FcTSu6Gk43BVL22rs,succeeded,1,50,"{""output_config"": {""effort"": ""low""}, ""thinking"": {""type"": ""disabled""}}",2090,0,1786,1646,6.123,0.0010498600000000001,0.00104986
+cold,verify,claude-haiku-5-5,sync,msg_011CgC5G4iWKjqUzFWQbs7ch,succeeded,1,20,"{""output_config"": {""effort"": ""low""}, ""thinking"": {""type"": ""disabled""}}",925,0,567,215,1.43,0.00020567000000000003,0.00020567
+cold,group,claude-haiku-5-5,sync,msg_011CgC5GAvKh5bdRQ7RzzX1y,succeeded,1,0,"{""output_config"": {""effort"": ""low""}, ""thinking"": {""type"": ""disabled""}}",3753,0,0,1111,5.688,0.0009308,0.0009308
+cold,memo,claude-sonnet-5-5,sync,msg_011CgC5GbLWPTthYdi864dUm,succeeded,1,0,"{""output_config"": {""effort"": ""low""}}",4508,0,535,1676,12.422,0.0258295,0.0258295

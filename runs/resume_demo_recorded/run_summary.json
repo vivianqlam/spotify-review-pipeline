@@ -1,0 +1,19 @@
+{
+  "budget_usd": 10.0,
+  "calls_by_role": {},
+  "counts": {
+    "empty_rows": 13,
+    "pending": 484189,
+    "source_rows": 660622
+  },
+  "global_spend_usd": 0.247387,
+  "label_config": "claude-haiku-5-5+enrich_v1+schema_v1+effort-low+thinking-off",
+  "models": {
+    "enrich": "claude-haiku-5-5",
+    "group": "claude-haiku-5-5",
+    "memo": "claude-sonnet-5-5",
+    "verify": "claude-haiku-5-5"
+  },
+  "run_cost_usd": 0,
+  "run_id": "resume_demo_recorded"
+}

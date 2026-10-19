@@ -1,0 +1,331 @@
+{
+  "audit_script_sha256": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d",
+  "audit_version": "a5-audit-v1",
+  "automatic_grade": null,
+  "calculated_ranking": [
+    {
+      "complaint_count": 93866,
+      "issue_id": "OTH-general",
+      "mean_severity": "1.963139",
+      "priority_score": 184272,
+      "rank": 1,
+      "severity_sum": 184272
+    },
+    {
+      "complaint_count": 29771,
+      "issue_id": "USA-ads_interruptions",
+      "mean_severity": "2.082967",
+      "priority_score": 62012,
+      "rank": 2,
+      "severity_sum": 62012
+    },
+    {
+      "complaint_count": 24254,
+      "issue_id": "BIL-general",
+      "mean_severity": "2.515544",
+      "priority_score": 61012,
+      "rank": 3,
+      "severity_sum": 61012
+    },
+    {
+      "complaint_count": 17349,
+      "issue_id": "BIL-premium_paywall_free_limits",
+      "mean_severity": "2.721310",
+      "priority_score": 47212,
+      "rank": 4,
+      "severity_sum": 47212
+    },
+    {
+      "complaint_count": 12266,
+      "issue_id": "PLA-general",
+      "mean_severity": "3.032937",
+      "priority_score": 37202,
+      "rank": 5,
+      "severity_sum": 37202
+    },
+    {
+      "complaint_count": 16330,
+      "issue_id": "USA-general",
+      "mean_severity": "2.269198",
+      "priority_score": 37056,
+      "rank": 6,
+      "severity_sum": 37056
+    },
+    {
+      "complaint_count": 13603,
+      "issue_id": "USA-shuffle_queue_controls",
+      "mean_severity": "2.650151",
+      "priority_score": 36050,
+      "rank": 7,
+      "severity_sum": 36050
+    },
+    {
+      "complaint_count": 6445,
+      "issue_id": "ACC-login_failure",
+      "mean_severity": "3.884717",
+      "priority_score": 25037,
+      "rank": 8,
+      "severity_sum": 25037
+    },
+    {
+      "complaint_count": 6623,
+      "issue_id": "PLA-stops_skips_pauses",
+      "mean_severity": "3.133927",
+      "priority_score": 20756,
+      "rank": 9,
+      "severity_sum": 20756
+    },
+    {
+      "complaint_count": 8668,
+      "issue_id": "USA-ui_redesign",
+      "mean_severity": "2.387056",
+      "priority_score": 20691,
+      "rank": 10,
+      "severity_sum": 20691
+    },
+    {
+      "complaint_count": 8024,
+      "issue_id": "CAT-general",
+      "mean_severity": "2.441176",
+      "priority_score": 19588,
+      "rank": 11,
+      "severity_sum": 19588
+    },
+    {
+      "complaint_count": 7065,
+      "issue_id": "BIL-charges_refunds",
+      "mean_severity": "2.700778",
+      "priority_score": 19081,
+      "rank": 12,
+      "severity_sum": 19081
+    },
+    {
+      "complaint_count": 5940,
+      "issue_id": "PLA-connectivity_and_devices",
+      "mean_severity": "3.127946",
+      "priority_score": 18580,
+      "rank": 13,
+      "severity_sum": 18580
+    },
+    {
+      "complaint_count": 7244,
+      "issue_id": "USA-library_playlist_management",
+      "mean_severity": "2.498896",
+      "priority_score": 18102,
+      "rank": 14,
+      "severity_sum": 18102
+    },
+    {
+      "complaint_count": 3994,
+      "issue_id": "PLA-crash_or_wont_open",
+      "mean_severity": "3.586630",
+      "priority_score": 14325,
+      "rank": 15,
+      "severity_sum": 14325
+    },
+    {
+      "complaint_count": 3837,
+      "issue_id": "ACC-general",
+      "mean_severity": "3.644253",
+      "priority_score": 13983,
+      "rank": 16,
+      "severity_sum": 13983
+    },
+    {
+      "complaint_count": 4453,
+      "issue_id": "CAT-lyrics",
+      "mean_severity": "2.814956",
+      "priority_score": 12535,
+      "rank": 17,
+      "severity_sum": 12535
+    },
+    {
+      "complaint_count": 3917,
+      "issue_id": "BIL-subscription_management",
+      "mean_severity": "2.602502",
+      "priority_score": 10194,
+      "rank": 18,
+      "severity_sum": 10194
+    },
+    {
+      "complaint_count": 3364,
+      "issue_id": "PLA-lag_loading",
+      "mean_severity": "2.947384",
+      "priority_score": 9915,
+      "rank": 19,
+      "severity_sum": 9915
+    },
+    {
+      "complaint_count": 2872,
+      "issue_id": "DOW-download_failures",
+      "mean_severity": "3.100627",
+      "priority_score": 8905,
+      "rank": 20,
+      "severity_sum": 8905
+    },
+    {
+      "complaint_count": 2144,
+      "issue_id": "CAT-missing_or_removed_content",
+      "mean_severity": "2.714086",
+      "priority_score": 5819,
+      "rank": 21,
+      "severity_sum": 5819
+    },
+    {
+      "complaint_count": 1689,
+      "issue_id": "DOW-offline_playback",
+      "mean_severity": "3.373002",
+      "priority_score": 5697,
+      "rank": 22,
+      "severity_sum": 5697
+    },
+    {
+      "complaint_count": 2426,
+      "issue_id": "CAT-recommendations_repetition",
+      "mean_severity": "2.311624",
+      "priority_score": 5608,
+      "rank": 23,
+      "severity_sum": 5608
+    },
+    {
+      "complaint_count": 2058,
+      "issue_id": "CAT-search",
+      "mean_severity": "2.673469",
+      "priority_score": 5502,
+      "rank": 24,
+      "severity_sum": 5502
+    },
+    {
+      "complaint_count": 2169,
+      "issue_id": "BIL-price",
+      "mean_severity": "2.226833",
+      "priority_score": 4830,
+      "rank": 25,
+      "severity_sum": 4830
+    },
+    {
+      "complaint_count": 1049,
+      "issue_id": "ACC-password_reset",
+      "mean_severity": "3.861773",
+      "priority_score": 4051,
+      "rank": 26,
+      "severity_sum": 4051
+    },
+    {
+      "complaint_count": 1459,
+      "issue_id": "PLA-audio_quality",
+      "mean_severity": "2.456477",
+      "priority_score": 3584,
+      "rank": 27,
+      "severity_sum": 3584
+    },
+    {
+      "complaint_count": 1118,
+      "issue_id": "DOW-general",
+      "mean_severity": "3.045617",
+      "priority_score": 3405,
+      "rank": 28,
+      "severity_sum": 3405
+    },
+    {
+      "complaint_count": 951,
+      "issue_id": "DOW-downloads_disappear",
+      "mean_severity": "3.556257",
+      "priority_score": 3382,
+      "rank": 29,
+      "severity_sum": 3382
+    },
+    {
+      "complaint_count": 907,
+      "issue_id": "SUP-general",
+      "mean_severity": "2.675854",
+      "priority_score": 2427,
+      "rank": 30,
+      "severity_sum": 2427
+    },
+    {
+      "complaint_count": 527,
+      "issue_id": "CAT-podcasts_audiobooks",
+      "mean_severity": "2.525617",
+      "priority_score": 1331,
+      "rank": 31,
+      "severity_sum": 1331
+    },
+    {
+      "complaint_count": 386,
+      "issue_id": "PLA-battery_storage_data",
+      "mean_severity": "2.795337",
+      "priority_score": 1079,
+      "rank": 32,
+      "severity_sum": 1079
+    },
+    {
+      "complaint_count": 198,
+      "issue_id": "ACC-signup",
+      "mean_severity": "3.762626",
+      "priority_score": 745,
+      "rank": 33,
+      "severity_sum": 745
+    },
+    {
+      "complaint_count": 168,
+      "issue_id": "ACC-account_hacked_or_lost",
+      "mean_severity": "4.208333",
+      "priority_score": 707,
+      "rank": 34,
+      "severity_sum": 707
+    }
+  ],
+  "coverage": {
+    "accounted_fraction": 1.0,
+    "duplicate_ids": 0,
+    "expected": 660622,
+    "invalid_or_unresolved": 0,
+    "labelable": 660609,
+    "labelable_completion_fraction": 0.999991,
+    "missing": 0,
+    "quarantined": 19,
+    "received_lines": 660622,
+    "unique_expected_ids": 660622,
+    "valid_cache_reuses": 176420,
+    "valid_completed": 660603,
+    "valid_completion_fraction": 0.999971
+  },
+  "examples": [
+    {
+      "code": "unfinished_classification",
+      "detail": "6"
+    }
+  ],
+  "hash_convention": "Reference/benchmark: canonical UTF-8 JSON via canonical(); input files and audit script: exact bytes.",
+  "input_files_sha256": {
+    "calls.jsonl.gz": "db8eedbafe87712ae974c7efd7ddfbde635cedff840f31e0fdd00b65217c55ed",
+    "checkpoint_after.json": "2799dee479005a1f507365b07987ecf8a782f2ad3e4a086d750e6ac8e3cf430d",
+    "checkpoint_before.json": "980d4ef8e3ee9ef6905debea8eef08d8bbf81b8093ffe2e2218efa66fd3ad15e",
+    "claims.csv": "9b0bf39e93384974d2298e08ac00d553221685713d4dc3d8f64abfa7838dbac1",
+    "ingestion.json": "5512dd793b0bde3bd51f28b20b440108f3c9bab31233819bea5f32ce19482153",
+    "membership.csv": "65e4388e9cd967eb4ead81b3d05f24a3d3781e2de7016fd84233b8d2f6dbdf00",
+    "ranking.csv": "cb063ea11403d2d8d0206f1b225a68665c1a15cba9b20ce699e0fe0aff51acb8",
+    "records.jsonl.gz": "10a3f92d60b06336842641e145d6437979498cbffa9c47f0aaf6ee7d95778cb5",
+    "run.json": "90b0f1ff2f45120239fde7c1f28490a1d9160831dc34cc8875e6dcec3afd702a"
+  },
+  "issue_counts": {
+    "unfinished_classification": 1
+  },
+  "limits": [
+    "Artifacts do not prove actual model execution, authorship, cost, or independent verification.",
+    "Exact quote membership does not prove that the quote supports the label.",
+    "Claims export checks numbers; a person must check that all memo claims are represented.",
+    "Benchmark agreement is diagnostic; final 4/3/3 grades require rubric review."
+  ],
+  "quality": {
+    "official": false,
+    "status": "not_supplied"
+  },
+  "reference_sha256": "bb31d47db9b9a85cd97b3ba6e880915aff41a6127c3accee719c139ab34b7e97",
+  "reported_calls": 9715,
+  "reported_input_tokens": 21279936,
+  "reported_output_tokens": 13680026,
+  "status": "review_required",
+  "working_coverage_point_candidate": 1.0
+}

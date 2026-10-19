@@ -1,0 +1,35 @@
+rank,issue_id,topic,name,complaint_count,cancellation_count,severity_4_plus,severity_sum,mean_severity,priority_score
+1,OTH-general,other,General dissatisfaction with the app,93866,9321,195,184272,1.963139,184272
+2,USA-ads_interruptions,usability,Too many unskippable ads,29771,2207,43,62012,2.082967,62012
+3,BIL-general,billing,Frustration with paywalled features generally,24254,5082,576,61012,2.515544,61012
+4,BIL-premium_paywall_free_limits,billing,Basic features locked behind premium,17349,4997,446,47212,2.721310,47212
+5,PLA-general,playback,Frequent bugs during playback,12266,486,3045,37202,3.032937,37202
+6,USA-general,usability,Ads and restrictive shuffle-only playback,16330,1161,98,37056,2.269198,37056
+7,USA-shuffle_queue_controls,usability,"Shuffle forced, controls removed",13603,1902,158,36050,2.650151,36050
+8,ACC-login_failure,access,Cannot log in via phone or Facebook,6445,375,5773,25037,3.884717,25037
+9,PLA-stops_skips_pauses,playback,Music stops unexpectedly,6623,504,1187,20756,3.133927,20756
+10,USA-ui_redesign,usability,Unwanted homepage and layout changes,8668,1603,102,20691,2.387056,20691
+11,CAT-general,catalog,Unwanted songs and missing liked songs,8024,406,161,19588,2.441176,19588
+12,BIL-charges_refunds,billing,Payment rejections and paid premium issues,7065,1659,1051,19081,2.700778,19081
+13,PLA-connectivity_and_devices,playback,Playback drops and device connection issues,5940,418,1381,18580,3.127946,18580
+14,USA-library_playlist_management,usability,Playlists reorder and songs added unexpectedly,7244,625,153,18102,2.498896,18102
+15,PLA-crash_or_wont_open,playback,App crashes or fails to open,3994,270,2441,14325,3.586630,14325
+16,ACC-general,access,Vague app access and connectivity failures,3837,233,2703,13983,3.644253,13983
+17,CAT-lyrics,catalog,Lyrics missing or unavailable,4453,165,7,12535,2.814956,12535
+18,BIL-subscription_management,billing,Forced subscription and family plan limits,3917,1172,292,10194,2.602502,10194
+19,PLA-lag_loading,playback,Slow loading and laggy performance,3364,163,738,9915,2.947384,9915
+20,DOW-download_failures,downloads,Downloads fail or require premium,2872,122,714,8905,3.100627,8905
+21,CAT-missing_or_removed_content,catalog,Artists and labels missing from catalog,2144,235,37,5819,2.714086,5819
+22,DOW-offline_playback,downloads,Offline mode fails without internet,1689,95,716,5697,3.373002,5697
+23,CAT-recommendations_repetition,catalog,Unwanted algorithmic suggestions and repeats,2426,224,14,5608,2.311624,5608
+24,CAT-search,catalog,Search returns wrong or no results,2058,120,115,5502,2.673469,5502
+25,BIL-price,billing,Ads and cost outweigh value,2169,391,34,4830,2.226833,4830
+26,ACC-password_reset,access,Password rejected and forced resets,1049,105,893,4051,3.861773,4051
+27,PLA-audio_quality,playback,Low audio quality and volume,1459,69,68,3584,2.456477,3584
+28,DOW-general,downloads,Liked songs and history vanish,1118,47,190,3405,3.045617,3405
+29,DOW-downloads_disappear,downloads,Downloaded songs vanish or grey out,951,100,392,3382,3.556257,3382
+30,SUP-general,support,Poor customer support responses,907,111,116,2427,2.675854,2427
+31,CAT-podcasts_audiobooks,catalog,Podcast features missing or broken,527,47,17,1331,2.525617,1331
+32,PLA-battery_storage_data,playback,Heavy battery and storage drain,386,23,64,1079,2.795337,1079
+33,ACC-signup,access,Account creation errors on signup,198,8,163,745,3.762626,745
+34,ACC-account_hacked_or_lost,access,Account hijacked or access lost,168,24,138,707,4.208333,707

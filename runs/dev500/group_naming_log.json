@@ -1,0 +1,6 @@
+{
+  "accepted": 29,
+  "rejected_lines": [],
+  "request_id": "msg_011CgC5MY2Do7cna9zaH7Ga1",
+  "rule": "model may only name existing code-defined issue IDs; membership never changes"
+}

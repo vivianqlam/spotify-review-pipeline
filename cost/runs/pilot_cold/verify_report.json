@@ -1,0 +1,14 @@
+{
+  "agreement": {
+    "all": 0.85,
+    "intent": 0.95,
+    "severity": 0.95,
+    "topic": 0.9
+  },
+  "disagreements": 3,
+  "procedure": "Declared seeded random sample of completed distinct texts; verifier prompt sees only review text and the rubric, never the enricher's labels; code compares topic/intent/severity.",
+  "sample_size": 20,
+  "severity_mae_between_roles": 0.05,
+  "verifier_missing": 0,
+  "verifier_valid": 20
+}

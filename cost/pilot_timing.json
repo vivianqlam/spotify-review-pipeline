@@ -1,0 +1,291 @@
+{
+  "cold": {
+    "wall_seconds": 33.127,
+    "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "distinct_texts_sent": 100,
+    "enrich_call_seconds_summed": 12.833,
+    "enrich_texts_per_second": 7.7924,
+    "workers": 1,
+    "stage_log": [
+      {
+        "at": 1792434723.1489651,
+        "distinct": 100,
+        "rows": 100,
+        "seconds": 0.0,
+        "stage": "ingest"
+      },
+      {
+        "at": 1792434736.422695,
+        "counts": {
+          "completed": 100,
+          "empty_rows": 0,
+          "source_rows": 100
+        },
+        "mode": "sync",
+        "phase": "initial",
+        "result": {
+          "completed": 100,
+          "failed_requests": 0,
+          "quarantined": 0,
+          "retry": 0,
+          "wall_seconds": 13.27
+        },
+        "seconds": 13.27,
+        "spent_total": 0.033047425,
+        "stage": "enrich",
+        "workers": 1
+      },
+      {
+        "at": 1792434737.8619342,
+        "planted": 1.0,
+        "report": {
+          "agreement": {
+            "all": 0.85,
+            "intent": 0.95,
+            "severity": 0.95,
+            "topic": 0.9
+          },
+          "disagreements": 3,
+          "procedure": "Declared seeded random sample of completed distinct texts; verifier prompt sees only review text and the rubric, never the enricher's labels; code compares topic/intent/severity.",
+          "sample_size": 20,
+          "severity_mae_between_roles": 0.05,
+          "verifier_missing": 0,
+          "verifier_valid": 20
+        },
+        "seconds": 1.44,
+        "stage": "verify"
+      },
+      {
+        "at": 1792434737.867254,
+        "completed": 100,
+        "quarantined": 0,
+        "stage": "records"
+      },
+      {
+        "at": 1792434743.566165,
+        "issues": 20,
+        "memberships": 52,
+        "seconds": 5.7,
+        "stage": "group"
+      },
+      {
+        "at": 1792434743.570335,
+        "issues": 20,
+        "stage": "rank"
+      },
+      {
+        "at": 1792434756.00158,
+        "check": {
+          "cited_claim_ids": [
+            "A01",
+            "A06",
+            "A07",
+            "A08",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A18",
+            "A19",
+            "A20",
+            "A21",
+            "A22",
+            "A24",
+            "A25",
+            "C003",
+            "C004",
+            "C005",
+            "C008",
+            "C009",
+            "C010",
+            "C011",
+            "C013",
+            "C014",
+            "C017",
+            "C018",
+            "C019",
+            "C021",
+            "C024",
+            "C037",
+            "C039"
+          ],
+          "issue_ids_cited": [
+            "ACC-general",
+            "ACC-password_reset",
+            "BIL-general",
+            "BIL-premium_paywall_free_limits",
+            "OTH-general",
+            "USA-general",
+            "USA-shuffle_queue_controls",
+            "USA-ui_redesign"
+          ],
+          "note": "Automated check of IDs and numbers only; a person still reviews the argument.",
+          "numbers_checked": 31,
+          "pass": false,
+          "request_id": "msg_011CgC5GbLWPTthYdi864dUm",
+          "review_ids_cited": [
+            "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+            "88439ec2-7c49-4c57-bedb-c5e098692aff",
+            "9e5f9745-f8be-48d3-b9de-4d118507d94a",
+            "e16a4550-43e7-4ae1-b538-a65cc652c31b"
+          ],
+          "review_ids_not_in_evidence_pack": [],
+          "unknown_claim_ids": [],
+          "unknown_issue_ids": [],
+          "unsupported_numbers": [
+            "11,",
+            "15,",
+            "22,",
+            "36,",
+            "8,",
+            "9,"
+          ]
+        },
+        "stage": "memo"
+      },
+      {
+        "at": 1792434756.272025,
+        "distinct": 100,
+        "rows": 100,
+        "seconds": 0.0,
+        "stage": "ingest"
+      },
+      {
+        "at": 1792434756.2726378,
+        "counts": {
+          "completed": 100,
+          "empty_rows": 0,
+          "source_rows": 100
+        },
+        "mode": "sync",
+        "phase": "initial",
+        "result": {
+          "completed": 0,
+          "failed_requests": 0,
+          "quarantined": 0,
+          "retry": 0,
+          "wall_seconds": 0.0
+        },
+        "seconds": 0.0,
+        "spent_total": 0.060013395,
+        "stage": "enrich",
+        "workers": 1
+      },
+      {
+        "at": 1792434756.2746382,
+        "planted": 1.0,
+        "report": {
+          "agreement": {
+            "all": 0.85,
+            "intent": 0.95,
+            "severity": 0.95,
+            "topic": 0.9
+          },
+          "disagreements": 3,
+          "procedure": "Declared seeded random sample of completed distinct texts; verifier prompt sees only review text and the rubric, never the enricher's labels; code compares topic/intent/severity.",
+          "sample_size": 20,
+          "severity_mae_between_roles": 0.05,
+          "verifier_missing": 0,
+          "verifier_valid": 20
+        },
+        "seconds": 0.0,
+        "stage": "verify"
+      },
+      {
+        "at": 1792434756.2761002,
+        "completed": 100,
+        "quarantined": 0,
+        "stage": "records"
+      },
+      {
+        "at": 1792434756.278782,
+        "issues": 20,
+        "memberships": 52,
+        "seconds": 0.0,
+        "stage": "group"
+      },
+      {
+        "at": 1792434756.279805,
+        "issues": 20,
+        "stage": "rank"
+      },
+      {
+        "at": 1792434756.281761,
+        "check": {
+          "cited_claim_ids": [
+            "A01",
+            "A06",
+            "A07",
+            "A08",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A18",
+            "A19",
+            "A20",
+            "A21",
+            "A22",
+            "A24",
+            "A25",
+            "C003",
+            "C004",
+            "C005",
+            "C008",
+            "C009",
+            "C010",
+            "C011",
+            "C013",
+            "C014",
+            "C017",
+            "C018",
+            "C019",
+            "C021",
+            "C024",
+            "C037",
+            "C039"
+          ],
+          "issue_ids_cited": [
+            "ACC-general",
+            "ACC-password_reset",
+            "BIL-general",
+            "BIL-premium_paywall_free_limits",
+            "OTH-general",
+            "USA-general",
+            "USA-shuffle_queue_controls",
+            "USA-ui_redesign"
+          ],
+          "note": "Automated check of IDs and numbers only; a person still reviews the argument.",
+          "numbers_checked": 31,
+          "pass": false,
+          "reused": true,
+          "review_ids_cited": [
+            "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+            "88439ec2-7c49-4c57-bedb-c5e098692aff",
+            "9e5f9745-f8be-48d3-b9de-4d118507d94a",
+            "e16a4550-43e7-4ae1-b538-a65cc652c31b"
+          ],
+          "review_ids_not_in_evidence_pack": [],
+          "unknown_claim_ids": [],
+          "unknown_issue_ids": [],
+          "unsupported_numbers": [
+            "11,",
+            "15,",
+            "22,",
+            "36,",
+            "8,",
+            "9,"
+          ]
+        },
+        "stage": "memo"
+      }
+    ]
+  },
+  "warm": {
+    "wall_seconds": 0.154,
+    "new_enrich_calls": 0,
+    "new_downstream_calls": 0,
+    "result_cache_hits": 100
+  },
+  "measured_at": "2026-10-19 08:32:36 HST"
+}

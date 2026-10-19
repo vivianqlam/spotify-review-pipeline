@@ -1,0 +1,60 @@
+{
+  "catch_rate": 1.0,
+  "caught_by_verifier_comparison": 17,
+  "note": "Test copy only; real records are unchanged and these rows never enter business aggregates.",
+  "planted": 17,
+  "planted_labels": {
+    "178c3b49-b689-4fe4-92a2-2257a58e6d95": {
+      "topic": "access"
+    },
+    "1807cc68-ba99-4edc-b6f1-2a1478e69109": {
+      "topic": "other"
+    },
+    "1d9f396e-7a8a-414b-a622-3ad6f9570abe": {
+      "topic": "downloads"
+    },
+    "3e8bdc92-4934-457e-85cc-8b9d14bf51c0": {
+      "topic": "access"
+    },
+    "47becad0-8ae5-4a10-9731-fde8f2091862": {
+      "topic": "access"
+    },
+    "4ab2089a-ffa8-49e7-a8a3-aeb583a96796": {
+      "topic": "usability"
+    },
+    "4aee0d75-6901-426e-b0f7-11d042ccc73e": {
+      "topic": "catalog"
+    },
+    "5c9c17d3-9d6a-4fa1-a2a4-ae98eefbbd25": {
+      "topic": "access"
+    },
+    "797d12c7-78dd-4805-a066-342ace701805": {
+      "topic": "catalog"
+    },
+    "8b6e028a-5f63-4011-9841-cbbade4830eb": {
+      "topic": "catalog"
+    },
+    "94c9f2f9-36fa-4c11-936e-660514fe7a35": {
+      "topic": "playback"
+    },
+    "9d851b7f-a738-449b-a841-de8076f13276": {
+      "topic": "access"
+    },
+    "9e5f9745-f8be-48d3-b9de-4d118507d94a": {
+      "topic": "support"
+    },
+    "a1a28752-3256-4f81-b888-3e943343529f": {
+      "topic": "billing"
+    },
+    "a78d831a-69f4-428a-9235-cfdd9775c509": {
+      "topic": "billing"
+    },
+    "ab67a772-c3b7-42ba-9b80-8d21d3857018": {
+      "topic": "support"
+    },
+    "c2738a4f-e57c-46bc-a4ad-8ec5a4b5d5cd": {
+      "topic": "catalog"
+    }
+  },
+  "synthetic": true
+}

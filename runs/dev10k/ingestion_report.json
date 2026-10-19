@@ -1,0 +1,47 @@
+{
+  "distinct_nonempty_texts": 8448,
+  "duplicate_review_ids": 0,
+  "empty_review_text": 0,
+  "exclusions": "none besides empty texts; missing app_version does not block classification",
+  "input_csv": "data/analysis_10000.csv",
+  "input_sha256": "eaa62ca6d44d717302904a9c922e99b0b4584d174309cb45295ecbc2ba2a91b5",
+  "missing_app_version": 2447,
+  "missing_values_by_field": {
+    "app_version": 2447
+  },
+  "nonempty_reviews": 10000,
+  "quarantine_rule": "review_text empty after whitespace strip -> quarantined, reason empty_review_text",
+  "reviews_by_month": {
+    "2022-05": 232,
+    "2022-06": 421,
+    "2022-07": 506,
+    "2022-08": 466,
+    "2022-09": 438,
+    "2022-10": 412,
+    "2022-11": 406,
+    "2022-12": 520,
+    "2023-01": 451,
+    "2023-02": 337,
+    "2023-03": 425,
+    "2023-04": 359,
+    "2023-05": 423,
+    "2023-06": 391,
+    "2023-07": 1246,
+    "2023-08": 459,
+    "2023-09": 625,
+    "2023-10": 1381,
+    "2023-11": 502
+  },
+  "reviews_by_rating": {
+    "1": 3685,
+    "2": 469,
+    "3": 498,
+    "4": 836,
+    "5": 4512
+  },
+  "rows_reusing_an_identical_text": 1552,
+  "run_id": "dev10k",
+  "seconds": 0.08,
+  "source_rows": 10000,
+  "unique_review_ids": 10000
+}

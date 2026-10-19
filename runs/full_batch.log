@@ -1,0 +1,82 @@
+[batch] submitted msgbatch_018QqkwzTKMW5goYLVpa2wix: 2500 requests, 125000 texts, worst-case $2.90 reserved
+[batch] submitted msgbatch_01S8RM7PdnipU14cwDMKCGja: 2500 requests, 125000 texts, worst-case $2.92 reserved
+[batch] submitted msgbatch_01Q3JeFownzJjJp4MZ8c7HSz: 2500 requests, 125000 texts, worst-case $2.90 reserved
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j in_progress processing=3 succeeded=0 errored=0 elapsed=37s
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=38s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=38s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=38s
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j in_progress processing=3 succeeded=0 errored=0 elapsed=99s
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=99s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=100s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=100s
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j in_progress processing=3 succeeded=0 errored=0 elapsed=161s
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=161s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=162s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=162s
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j in_progress processing=3 succeeded=0 errored=0 elapsed=223s
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=223s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=223s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=224s
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j in_progress processing=3 succeeded=0 errored=0 elapsed=285s
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=285s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=285s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=285s
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j in_progress processing=3 succeeded=0 errored=0 elapsed=346s
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=347s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=347s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=347s
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j in_progress processing=3 succeeded=0 errored=0 elapsed=408s
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=408s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=409s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=409s
+[batch] holding 2161 requests: spent $0.25 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_01D2cx4PPyER2vHuUhTSar1j ended processing=0 succeeded=3 errored=0 elapsed=470s
+[batch] ingested msgbatch_01D2cx4PPyER2vHuUhTSar1j: completed=1147 pending=483042 quarantined=0 spent=$0.2520
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=473s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=473s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=474s
+[batch] holding 2161 requests: spent $0.26 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=535s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=535s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=535s
+[batch] holding 2161 requests: spent $0.27 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix in_progress processing=2500 succeeded=0 errored=0 elapsed=596s
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja in_progress processing=2500 succeeded=0 errored=0 elapsed=596s
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz in_progress processing=2500 succeeded=0 errored=0 elapsed=597s
+[batch] holding 2161 requests: spent $0.27 + in-flight worst $8.72 + next $2.56 > cap $10.00
+[batch] msgbatch_018QqkwzTKMW5goYLVpa2wix ended processing=0 succeeded=2500 errored=0 elapsed=658s
+[batch] ingested msgbatch_018QqkwzTKMW5goYLVpa2wix: completed=126051 pending=358138 quarantined=0 spent=$1.3943
+[batch] msgbatch_01S8RM7PdnipU14cwDMKCGja ended processing=0 succeeded=2500 errored=0 elapsed=662s
+[batch] ingested msgbatch_01S8RM7PdnipU14cwDMKCGja: completed=250960 pending=233229 quarantined=0 spent=$2.5925
+[batch] msgbatch_01Q3JeFownzJjJp4MZ8c7HSz ended processing=0 succeeded=2500 errored=0 elapsed=666s
+[batch] ingested msgbatch_01Q3JeFownzJjJp4MZ8c7HSz: completed=375867 pending=108322 quarantined=0 spent=$3.7283
+[batch] submitted msgbatch_013a5oLpQrZYE5gWbCpRyRvL: 2167 requests, 108322 texts, worst-case $2.56 reserved
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=683s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=743s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=804s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=865s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=925s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=986s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=1046s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=1107s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=1167s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL in_progress processing=2167 succeeded=0 errored=0 elapsed=1228s
+[batch] msgbatch_013a5oLpQrZYE5gWbCpRyRvL ended processing=0 succeeded=2167 errored=0 elapsed=1288s
+[batch] ingested msgbatch_013a5oLpQrZYE5gWbCpRyRvL: completed=484077 pending=106 quarantined=6 spent=$4.8195
+[batch] submitted msgbatch_01YUCzLBZCCMFwMm1QaCoRG3: 3 requests, 106 texts, worst-case $0.00 reserved
+[batch] msgbatch_01YUCzLBZCCMFwMm1QaCoRG3 in_progress processing=3 succeeded=0 errored=0 elapsed=1293s
+[batch] msgbatch_01YUCzLBZCCMFwMm1QaCoRG3 in_progress processing=3 succeeded=0 errored=0 elapsed=1353s
+[batch] msgbatch_01YUCzLBZCCMFwMm1QaCoRG3 in_progress processing=3 succeeded=0 errored=0 elapsed=1414s
+[batch] msgbatch_01YUCzLBZCCMFwMm1QaCoRG3 in_progress processing=3 succeeded=0 errored=0 elapsed=1474s
+[batch] msgbatch_01YUCzLBZCCMFwMm1QaCoRG3 in_progress processing=3 succeeded=0 errored=0 elapsed=1534s
+[batch] msgbatch_01YUCzLBZCCMFwMm1QaCoRG3 in_progress processing=3 succeeded=0 errored=0 elapsed=1595s
+[batch] msgbatch_01YUCzLBZCCMFwMm1QaCoRG3 ended processing=0 succeeded=3 errored=0 elapsed=1655s
+[batch] ingested msgbatch_01YUCzLBZCCMFwMm1QaCoRG3: completed=484183 pending=0 quarantined=6 spent=$4.8204
+[enrich] {"completed": 483186, "retry": 386, "quarantined": 6, "errored_requests": 0, "wall_seconds": 1656.25} {'completed': 484183, 'quarantined': 6, 'source_rows': 660622, 'empty_rows': 13}

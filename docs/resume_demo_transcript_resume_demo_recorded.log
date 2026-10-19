@@ -1,0 +1,50 @@
+=== resume demo Mon Oct 19 08:48:47 HST 2026 ===
+[ingest] 660622 rows, 484189 distinct nonempty texts, 13 empty -> quarantine (7.4s)
+--- state before starting ---
+{
+ "run_id": "resume_demo_recorded",
+ "counts": {
+  "pending": 484189,
+  "source_rows": 660622,
+  "empty_rows": 13
+ },
+ "calls_by_role": {},
+ "run_cost_usd": 0,
+ "global_spend_usd": 0.247387,
+ "budget_usd": 10.0,
+ "label_config": "claude-haiku-5-5+enrich_v1+schema_v1+effort-low+thinking-off",
+--- 1) initial phase (1 worker). Will be interrupted with SIGINT after 45s ---
+[enrich] initial completed=50 pending=484139 quarantined=0 requests_sent=2 spent=$0.2484 elapsed=5s
+[enrich] initial completed=100 pending=484089 quarantined=0 requests_sent=2 spent=$0.2491 elapsed=9s
+[enrich] initial completed=150 pending=484039 quarantined=0 requests_sent=4 spent=$0.2498 elapsed=14s
+[enrich] initial completed=200 pending=483989 quarantined=0 requests_sent=4 spent=$0.2507 elapsed=19s
+[enrich] initial completed=250 pending=483939 quarantined=0 requests_sent=6 spent=$0.2528 elapsed=24s
+[enrich] initial completed=300 pending=483889 quarantined=0 requests_sent=6 spent=$0.2537 elapsed=29s
+[enrich] initial completed=350 pending=483839 quarantined=0 requests_sent=8 spent=$0.2545 elapsed=33s
+[enrich] initial completed=400 pending=483789 quarantined=0 requests_sent=8 spent=$0.2552 elapsed=37s
+[enrich] initial completed=450 pending=483739 quarantined=0 requests_sent=10 spent=$0.2561 elapsed=43s
+>>> sending SIGINT (Ctrl-C) to enrichment process 84667
+
+[enrich] stop requested: finishing in-flight requests, saving state
+[enrich] initial completed=500 pending=483689 quarantined=0 requests_sent=10 spent=$0.2570 elapsed=48s
+[enrich] {"completed": 500, "retry": 0, "quarantined": 0, "failed_requests": 0, "wall_seconds": 48.44} {'completed': 500, 'pending': 483689, 'source_rows': 660622, 'empty_rows': 13}
+--- 2) checkpoint after interruption ---
+[checkpoint] before: 63824 completed review IDs saved
+texts by status: {'completed': 500, 'pending': 483689}
+--- 3) resume phase: 10 more requests; completed IDs are skipped (no paid relabeling) ---
+[enrich] resume completed=550 pending=483639 quarantined=0 requests_sent=2 spent=$0.2578 elapsed=5s
+[enrich] resume completed=599 pending=483590 quarantined=0 requests_sent=2 spent=$0.2586 elapsed=10s
+[enrich] resume completed=649 pending=483540 quarantined=0 requests_sent=4 spent=$0.2593 elapsed=14s
+[enrich] resume completed=699 pending=483490 quarantined=0 requests_sent=4 spent=$0.2602 elapsed=19s
+[enrich] resume completed=749 pending=483440 quarantined=0 requests_sent=6 spent=$0.2611 elapsed=24s
+[enrich] resume completed=799 pending=483390 quarantined=0 requests_sent=6 spent=$0.2619 elapsed=29s
+[enrich] resume completed=849 pending=483340 quarantined=0 requests_sent=8 spent=$0.2628 elapsed=34s
+[enrich] resume completed=899 pending=483290 quarantined=0 requests_sent=8 spent=$0.2638 elapsed=41s
+[enrich] resume completed=948 pending=483241 quarantined=0 requests_sent=10 spent=$0.2649 elapsed=46s
+[enrich] resume completed=998 pending=483191 quarantined=0 requests_sent=10 spent=$0.2656 elapsed=50s
+[enrich] {"completed": 498, "retry": 2, "quarantined": 0, "failed_requests": 0, "wall_seconds": 50.46} {'completed': 998, 'pending': 483191, 'source_rows': 660622, 'empty_rows': 13}
+--- 4) checkpoint after resume ---
+[checkpoint] after: 77704 completed review IDs saved
+before=63824 after=77704 before_subset_of_after=True new_completed=13880
+resume-phase enrichment calls that re-sent a checkpointed ID: 0
+=== demo complete Mon Oct 19 08:50:40 HST 2026 ===

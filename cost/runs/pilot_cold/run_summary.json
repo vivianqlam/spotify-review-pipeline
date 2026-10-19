@@ -1,0 +1,60 @@
+{
+  "budget_usd": 10.0,
+  "calls_by_role": {
+    "enrich": {
+      "attempts": 2,
+      "cache_read": 3572,
+      "cache_write": 0,
+      "cost_usd": 0.00220432,
+      "failed": 0,
+      "input_tokens": 4046,
+      "output_tokens": 3528,
+      "succeeded": 2
+    },
+    "group": {
+      "attempts": 1,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cost_usd": 0.0009308,
+      "failed": 0,
+      "input_tokens": 3753,
+      "output_tokens": 1111,
+      "succeeded": 1
+    },
+    "memo": {
+      "attempts": 1,
+      "cache_read": 535,
+      "cache_write": 0,
+      "cost_usd": 0.0258295,
+      "failed": 0,
+      "input_tokens": 4508,
+      "output_tokens": 1676,
+      "succeeded": 1
+    },
+    "verify": {
+      "attempts": 1,
+      "cache_read": 567,
+      "cache_write": 0,
+      "cost_usd": 0.00020567000000000003,
+      "failed": 0,
+      "input_tokens": 925,
+      "output_tokens": 215,
+      "succeeded": 1
+    }
+  },
+  "counts": {
+    "completed": 100,
+    "empty_rows": 0,
+    "source_rows": 100
+  },
+  "global_spend_usd": 0.060013,
+  "label_config": "claude-haiku-5-5+enrich_v1+schema_v1+effort-low+thinking-off",
+  "models": {
+    "enrich": "claude-haiku-5-5",
+    "group": "claude-haiku-5-5",
+    "memo": "claude-sonnet-5-5",
+    "verify": "claude-haiku-5-5"
+  },
+  "run_cost_usd": 0.02917,
+  "run_id": "pilot_cold"
+}

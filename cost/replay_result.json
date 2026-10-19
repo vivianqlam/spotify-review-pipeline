@@ -1,0 +1,167 @@
+{
+  "budget_usd": 10.0,
+  "controls": {
+    "budget_usd": 10.0,
+    "enrich_output_token_cap_per_request": 4000,
+    "fallback_fraction_cap": 0.0,
+    "invalid_output_retries": 1,
+    "max_reviews_per_request": 50,
+    "max_workers": 4,
+    "transient_retries": 4
+  },
+  "full_run_scope": {
+    "distinct_texts": 484189,
+    "empty_quarantine": 13,
+    "nonempty": 660609,
+    "rows": 660622
+  },
+  "measured_pilot": {
+    "by_stage": {
+      "cold/enrich": {
+        "attempts": 2,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 3572,
+        "cost_usd": 0.002204,
+        "failed": 0,
+        "input_tokens": 4046,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "output_tokens": 3528,
+        "settings": [
+          "{\"output_config\": {\"effort\": \"low\"}, \"thinking\": {\"type\": \"disabled\"}}"
+        ],
+        "succeeded": 2
+      },
+      "cold/group": {
+        "attempts": 1,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cost_usd": 0.000931,
+        "failed": 0,
+        "input_tokens": 3753,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "output_tokens": 1111,
+        "settings": [
+          "{\"output_config\": {\"effort\": \"low\"}, \"thinking\": {\"type\": \"disabled\"}}"
+        ],
+        "succeeded": 1
+      },
+      "cold/memo": {
+        "attempts": 1,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 535,
+        "cost_usd": 0.02583,
+        "failed": 0,
+        "input_tokens": 4508,
+        "models": [
+          "claude-sonnet-5-5"
+        ],
+        "output_tokens": 1676,
+        "settings": [
+          "{\"output_config\": {\"effort\": \"low\"}}"
+        ],
+        "succeeded": 1
+      },
+      "cold/verify": {
+        "attempts": 1,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 567,
+        "cost_usd": 0.000206,
+        "failed": 0,
+        "input_tokens": 925,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "output_tokens": 215,
+        "settings": [
+          "{\"output_config\": {\"effort\": \"low\"}, \"thinking\": {\"type\": \"disabled\"}}"
+        ],
+        "succeeded": 1
+      }
+    },
+    "cold": {
+      "api_usd": 0.02917,
+      "enrich_attempts": 2,
+      "enrich_requests": 2,
+      "records_per_second": 3.019,
+      "usd_per_1000_inputs": 0.291703,
+      "usd_per_completed_record": 0.0002917,
+      "wall_seconds": 33.127
+    },
+    "completed": 100,
+    "ids": 100,
+    "input_file": "cost_100.csv",
+    "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "local_compute": {
+      "api_free_local_compute_usd": "unknown (laptop CPU for parsing/SQLite; not metered)",
+      "note": "Local stages (ingest, validation, grouping, ranking) run on a MacBook; no hardware cost is charged here and it is not counted as zero API spend."
+    },
+    "quarantined": 0,
+    "unique_texts": 100,
+    "warm": {
+      "api_usd": 0.0,
+      "new_downstream_calls": 0,
+      "new_enrich_calls": 0,
+      "result_cache_hits": 100,
+      "wall_seconds": 0.154
+    }
+  },
+  "projection_scenarios": {
+    "base_batch_with_reuse": {
+      "enrich_tier": "batch",
+      "estimated_elapsed_hours": 1.0,
+      "exceeds_budget": false,
+      "fallback_usd": 0.0,
+      "first_pass_usd": 5.3365,
+      "fixed_overhead_usd": 0.0268,
+      "retries_usd": 0.0534,
+      "sync_portion_premium_usd": 0.0267,
+      "texts_classified": 484189,
+      "total_api_usd": 5.4536,
+      "verification_usd": 0.0103
+    },
+    "conservative_batch_with_reuse": {
+      "enrich_tier": "batch",
+      "estimated_elapsed_hours": 24.0,
+      "exceeds_budget": false,
+      "fallback_usd": 0.0,
+      "first_pass_usd": 5.3365,
+      "fixed_overhead_usd": 0.0535,
+      "retries_usd": 0.2668,
+      "sync_portion_premium_usd": 0.1067,
+      "texts_classified": 484189,
+      "total_api_usd": 5.7739,
+      "verification_usd": 0.0103
+    },
+    "no_reuse_batch": {
+      "enrich_tier": "batch",
+      "estimated_elapsed_hours": 1.0,
+      "exceeds_budget": false,
+      "fallback_usd": 0.0,
+      "first_pass_usd": 7.281,
+      "fixed_overhead_usd": 0.0268,
+      "retries_usd": 0.0728,
+      "sync_portion_premium_usd": 0.0364,
+      "texts_classified": 660609,
+      "total_api_usd": 7.4272,
+      "verification_usd": 0.0103
+    },
+    "standard_sync_with_reuse_4_workers": {
+      "enrich_tier": "standard",
+      "estimated_elapsed_hours": 4.32,
+      "exceeds_budget": true,
+      "fallback_usd": 0.0,
+      "first_pass_usd": 10.6731,
+      "fixed_overhead_usd": 0.0268,
+      "retries_usd": 0.1067,
+      "sync_portion_premium_usd": 0.0,
+      "texts_classified": 484189,
+      "total_api_usd": 10.8168,
+      "verification_usd": 0.0103
+    }
+  },
+  "rate_multiplier": 1.0
+}

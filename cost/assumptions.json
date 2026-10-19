@@ -1,0 +1,32 @@
+{
+  "enrich_model": "claude-haiku-5-5",
+  "verify_model": "claude-haiku-5-5",
+  "fallback_cost_multiplier": 20.0,
+  "controls": {
+    "budget_usd": 10.0,
+    "enrich_output_token_cap_per_request": 4000,
+    "max_reviews_per_request": 50,
+    "max_workers": 4,
+    "fallback_fraction_cap": 0.0,
+    "invalid_output_retries": 1,
+    "transient_retries": 4
+  },
+  "local_compute": {
+    "api_free_local_compute_usd": "unknown (laptop CPU for parsing/SQLite; not metered)",
+    "note": "Local stages (ingest, validation, grouping, ranking) run on a MacBook; no hardware cost is charged here and it is not counted as zero API spend."
+  },
+  "scenarios": {
+    "base_batch_with_reuse": {"exact_text_reuse": true, "enrich_tier": "batch", "sync_fraction": 0.005,
+      "invalid_retry_rate": 0.01, "fallback_fraction": 0.0, "verify_sample": 1000, "fixed_overhead_multiplier": 1.0,
+      "workers": 1, "batch_turnaround_hours": 1.0},
+    "conservative_batch_with_reuse": {"exact_text_reuse": true, "enrich_tier": "batch", "sync_fraction": 0.02,
+      "invalid_retry_rate": 0.05, "fallback_fraction": 0.0, "verify_sample": 1000, "fixed_overhead_multiplier": 2.0,
+      "workers": 1, "batch_turnaround_hours": 24.0},
+    "no_reuse_batch": {"exact_text_reuse": false, "enrich_tier": "batch", "sync_fraction": 0.005,
+      "invalid_retry_rate": 0.01, "fallback_fraction": 0.0, "verify_sample": 1000, "fixed_overhead_multiplier": 1.0,
+      "workers": 1, "batch_turnaround_hours": 1.0},
+    "standard_sync_with_reuse_4_workers": {"exact_text_reuse": true, "enrich_tier": "standard", "sync_fraction": 0.0,
+      "invalid_retry_rate": 0.01, "fallback_fraction": 0.0, "verify_sample": 1000, "fixed_overhead_multiplier": 1.0,
+      "workers": 4, "batch_turnaround_hours": 0}
+  }
+}

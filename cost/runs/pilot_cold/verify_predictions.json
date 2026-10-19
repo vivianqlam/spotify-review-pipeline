@@ -1,0 +1,102 @@
+{
+ "084077ee-f9be-446a-9935-9e58550d5153": {
+  "intent": "unclear",
+  "severity": 1,
+  "topic": "other"
+ },
+ "178c3b49-b689-4fe4-92a2-2257a58e6d95": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "other"
+ },
+ "1807cc68-ba99-4edc-b6f1-2a1478e69109": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "catalog"
+ },
+ "1d9f396e-7a8a-414b-a622-3ad6f9570abe": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "2ffdf599-a0d5-4c01-bf26-025215d44c06": {
+  "intent": "cancellation",
+  "severity": 3,
+  "topic": "playback"
+ },
+ "3e8bdc92-4934-457e-85cc-8b9d14bf51c0": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "47becad0-8ae5-4a10-9731-fde8f2091862": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "catalog"
+ },
+ "4ab2089a-ffa8-49e7-a8a3-aeb583a96796": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "playback"
+ },
+ "4aee0d75-6901-426e-b0f7-11d042ccc73e": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "5c9c17d3-9d6a-4fa1-a2a4-ae98eefbbd25": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "797d12c7-78dd-4805-a066-342ace701805": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "89a8e180-7846-4421-a2b6-fa7787e9d0d2": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "8b6e028a-5f63-4011-9841-cbbade4830eb": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "other"
+ },
+ "94c9f2f9-36fa-4c11-936e-660514fe7a35": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "9d851b7f-a738-449b-a841-de8076f13276": {
+  "intent": "praise",
+  "severity": 1,
+  "topic": "other"
+ },
+ "9e5f9745-f8be-48d3-b9de-4d118507d94a": {
+  "intent": "cancellation",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "a1a28752-3256-4f81-b888-3e943343529f": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "catalog"
+ },
+ "a78d831a-69f4-428a-9235-cfdd9775c509": {
+  "intent": "complaint",
+  "severity": 3,
+  "topic": "usability"
+ },
+ "ab67a772-c3b7-42ba-9b80-8d21d3857018": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ },
+ "c2738a4f-e57c-46bc-a4ad-8ec5a4b5d5cd": {
+  "intent": "complaint",
+  "severity": 2,
+  "topic": "usability"
+ }
+}

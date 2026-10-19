@@ -1,0 +1,84 @@
+{
+  "catch_rate": 1.0,
+  "caught_by_verifier_comparison": 25,
+  "note": "Test copy only; real records are unchanged and these rows never enter business aggregates.",
+  "planted": 25,
+  "planted_labels": {
+    "088e9ac3-8b93-4bff-8c75-032362d37b64": {
+      "topic": "support"
+    },
+    "0b52ac4e-1982-46ed-aeaa-74eedaefb5c9": {
+      "topic": "catalog"
+    },
+    "0b626430-7bf8-4ae4-9a44-f6ffc4324424": {
+      "topic": "usability"
+    },
+    "0be20402-efaf-482f-9635-78f166bcf538": {
+      "topic": "usability"
+    },
+    "0c65cf2c-7e0e-4fd6-a146-9e02126e9e13": {
+      "topic": "catalog"
+    },
+    "10f09c93-34ef-4a3b-8ee2-97d7c00d44e0": {
+      "topic": "usability"
+    },
+    "1d1480fb-0142-46da-8570-45bf3983bf6d": {
+      "topic": "catalog"
+    },
+    "4001e2ec-2621-4256-b42d-c4988458a293": {
+      "topic": "downloads"
+    },
+    "41f67b68-df85-4685-a28c-2558abcb71c9": {
+      "topic": "access"
+    },
+    "4a2ba740-231c-406e-a7a1-c31349e99c44": {
+      "topic": "catalog"
+    },
+    "5738a6ed-6cfc-48d7-b100-e9d5189ef23c": {
+      "topic": "catalog"
+    },
+    "68edb14c-aa3c-4d89-918b-d26550902f5d": {
+      "topic": "downloads"
+    },
+    "6906dfd7-a45a-4d04-aa74-5f34b1ca5ed5": {
+      "topic": "catalog"
+    },
+    "884e8712-da13-4890-a39e-731b69f42d6c": {
+      "topic": "catalog"
+    },
+    "8b47c5d7-d31c-4aae-b00d-d62217ae55fc": {
+      "topic": "billing"
+    },
+    "94fd7069-c8e1-4f09-9651-dd9f5cfefff4": {
+      "topic": "catalog"
+    },
+    "9d851b7f-a738-449b-a841-de8076f13276": {
+      "topic": "billing"
+    },
+    "ad718533-a53f-475b-b200-58ab07d07d5b": {
+      "topic": "access"
+    },
+    "b45ac639-166c-4089-a716-d462162a918b": {
+      "topic": "access"
+    },
+    "bb1a158b-e781-4a16-855b-d4f04a61002c": {
+      "topic": "support"
+    },
+    "df239418-e786-4b6f-9545-6946e1960b89": {
+      "topic": "playback"
+    },
+    "e04b40b8-4ac0-4058-aa91-89986d53586a": {
+      "topic": "access"
+    },
+    "e27a8abd-a52e-469b-a0db-79ce8711226c": {
+      "topic": "playback"
+    },
+    "e3238297-f942-4c8e-96f7-b951b461e707": {
+      "topic": "access"
+    },
+    "e69dc5e0-1317-424e-a778-6081914a7b85": {
+      "topic": "usability"
+    }
+  },
+  "synthetic": true
+}

@@ -1,0 +1,6 @@
+{"at": 1792434776.710217, "distinct": 479, "rows": 500, "seconds": 0.01, "stage": "ingest"}
+{"at": 1792434805.859051, "counts": {"completed": 479, "empty_rows": 0, "source_rows": 500}, "mode": "sync", "phase": "initial", "result": {"completed": 479, "failed_requests": 0, "quarantined": 0, "retry": 1, "wall_seconds": 29.15}, "seconds": 29.15, "spent_total": 0.069856015, "stage": "enrich", "workers": 2}
+{"at": 1792434810.6458728, "planted": 1.0, "report": {"agreement": {"all": 0.73, "intent": 0.93, "severity": 0.86, "topic": 0.85}, "disagreements": 27, "procedure": "Declared seeded random sample of completed distinct texts; verifier prompt sees only review text and the rubric, never the enricher's labels; code compares topic/intent/severity.", "sample_size": 100, "severity_mae_between_roles": 0.14, "verifier_missing": 0, "verifier_valid": 100}, "seconds": 4.79, "stage": "verify"}
+{"at": 1792434810.659926, "completed": 500, "quarantined": 0, "stage": "records"}
+{"at": 1792434818.988235, "issues": 29, "memberships": 242, "seconds": 8.33, "stage": "group"}
+{"at": 1792434818.996948, "issues": 29, "stage": "rank"}

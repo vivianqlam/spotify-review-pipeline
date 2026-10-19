@@ -1,0 +1,157 @@
+{
+  "area_claims_csv": "claim_id,area,topics,metric,value\nA01,access,access,complaint_count,3\nA02,access,access,severity_sum,11\nA03,access,access,mean_severity,3.666667\nA04,access,access,share_of_all_complaints_pct,5.8\nA05,access,access,severity_4_plus,2\nA06,access,access,cancellations,0\nA07,usability,usability,complaint_count,15\nA08,usability,usability,severity_sum,36\nA09,usability,usability,mean_severity,2.400000\nA10,usability,usability,share_of_all_complaints_pct,28.8\nA11,usability,usability,severity_4_plus,0\nA12,usability,usability,cancellations,4\nA13,playback,playback+downloads,complaint_count,5\nA14,playback,playback+downloads,severity_sum,15\nA15,playback,playback+downloads,mean_severity,3.000000\nA16,playback,playback+downloads,share_of_all_complaints_pct,9.6\nA17,playback,playback+downloads,severity_4_plus,1\nA18,playback,playback+downloads,cancellations,1\nA19,billing/support,billing+support,complaint_count,8\nA20,billing/support,billing+support,severity_sum,22\nA21,billing/support,billing+support,mean_severity,2.750000\nA22,billing/support,billing+support,share_of_all_complaints_pct,15.4\nA23,billing/support,billing+support,severity_4_plus,0\nA24,billing/support,billing+support,cancellations,1\nA25,all,all,complaint_count,52",
+  "context": {
+    "completed": 100,
+    "independent_verifier": {
+      "intent_agreement_pct": "95.0",
+      "sample": 20,
+      "severity_agreement_pct": "95.0",
+      "topic_agreement_pct": "90.0"
+    },
+    "quarantined_empty_text": 0,
+    "quarantined_other": 0,
+    "review_window": "2022-05 to 2023-11 (first and last months partial)",
+    "source_rows": 100
+  },
+  "evidence_pack": [
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "I am unable to use my Google assistant on the app.it says playing your Spotify playlist but do not play the songs",
+          "review_id": "46ff0c74-5e86-4e5b-b4cd-36201aab0f9e",
+          "severity": 3
+        },
+        {
+          "intent": "complaint",
+          "quote": "RUDE APP , THIS APP SUPPORT GUYS 🤮🤮🤮🤮🤮🤮🤮🤮🤮🤮. تطبيق سيء ، بدعم المثليين 🤮🤮🤮",
+          "review_id": "33526c6f-7a49-4b3d-bd20-d1bc191c494c",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "Aakhir kar spotify ne bhi apni bhikaariyo vali aukaat dikha di \"Gadar karbe\" Chanda mangna got real Bhikaariyo ko training dena bhi shuru kardo haramiyo",
+          "review_id": "3e82cf28-6b0a-4980-902c-b6aa154d353a",
+          "severity": 2
+        }
+      ],
+      "issue_id": "OTH-general",
+      "name": "Assorted complaints about the app"
+    },
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "What kind of stupidity is this? Na queue m lgte h gaane, na skip kr skte h, na random chla skte h, kya bkchodi h ye??? Jaruri h premium lena?",
+          "review_id": "89ea2c30-db8b-459d-8ab7-bbcb7f92c774",
+          "severity": 3
+        },
+        {
+          "intent": "complaint",
+          "quote": "Recent update really sucks. The ability to skip a song or go to previous song has been removed from non subscribed users.",
+          "review_id": "a3605554-5c3a-441d-836e-e9fdea83eb2e",
+          "severity": 3
+        },
+        {
+          "intent": "complaint",
+          "quote": "This was fine till the last update, now you can't even pick a certain song without Spotify premium, and now you can only skip 6 songs, like please just let the songs fit my mood!",
+          "review_id": "d146397f-4a94-4980-be00-ae9212eca3a7",
+          "severity": 3
+        }
+      ],
+      "issue_id": "BIL-premium_paywall_free_limits",
+      "name": "Free users lose skip and song selection"
+    },
+    {
+      "examples": [
+        {
+          "intent": "cancellation",
+          "quote": "I would request to remove all the new features .what's the point if we dont get to go back to the same song or skip songs..or choose .its not fair ..to restrict all the features jst so people would purchase premium ..its",
+          "review_id": "88439ec2-7c49-4c57-bedb-c5e098692aff",
+          "severity": 3
+        },
+        {
+          "intent": "complaint",
+          "quote": "You can't even listen to music you want it just shuffles it, like what the hell? This app is killing it self and forcing you to pay premium for basic things like just listening to music.",
+          "review_id": "a78d831a-69f4-428a-9235-cfdd9775c509",
+          "severity": 3
+        },
+        {
+          "intent": "cancellation",
+          "quote": "Am very sad about the new spotfy update. i can't play song happly . Can't repeat and play specific part.please solve this matter. I'm leaving spotfy",
+          "review_id": "e16a4550-43e7-4ae1-b538-a65cc652c31b",
+          "severity": 3
+        }
+      ],
+      "issue_id": "USA-shuffle_queue_controls",
+      "name": "Shuffle forced and replay controls removed"
+    },
+    {
+      "examples": [
+        {
+          "intent": "cancellation",
+          "quote": "I m using this app from 5 to 6 year but now m uninstald this app cz his premium adds are everywhere now .",
+          "review_id": "035213ba-b1b9-411c-b028-70296e5f0e73",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "This app is nice but adds are too much",
+          "review_id": "85383985-844d-4f9b-bcd9-d6016ac35f6b",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "There is some bugs like music adjustment doesn't work Perporly plz do something about this bug",
+          "review_id": "9c9757da-6b99-4c95-a0e7-0661ee858027",
+          "severity": 2
+        }
+      ],
+      "issue_id": "USA-general",
+      "name": "Ads, bugs, and general dissatisfaction"
+    },
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "I am using Spotify from past two years From last update they removed basic features of music player",
+          "review_id": "7084ced1-0428-4093-9328-442f74719b4f",
+          "severity": 3
+        },
+        {
+          "intent": "cancellation",
+          "quote": "Doesn't deserve even one star. Like what's the problem? We can't even go back few second to play music? WHAT IN THE WORLD IS THIS UPDATE?",
+          "review_id": "9e5f9745-f8be-48d3-b9de-4d118507d94a",
+          "severity": 3
+        },
+        {
+          "intent": "complaint",
+          "quote": "I really have enjoyed the blend feature you've released. I can't wait to see it expanded upon. Like being able to rename the blends you make would be nice. The same issue as 5 years ago when I left a review still persist",
+          "review_id": "d455c11e-c530-4c03-a395-38f5a5cdb8d3",
+          "severity": 2
+        }
+      ],
+      "issue_id": "USA-ui_redesign",
+      "name": "Basic player features removed in redesign"
+    },
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "App is stuck on loading/logo screen",
+          "review_id": "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+          "severity": 4
+        },
+        {
+          "intent": "complaint",
+          "quote": "It not letting me into my account and there are to many ads",
+          "review_id": "32fb340f-4f9f-4551-8dae-755221e58d6a",
+          "severity": 3
+        }
+      ],
+      "issue_id": "ACC-general",
+      "name": "App stuck on loading and ad-heavy login"
+    }
+  ],
+  "issue_claims_csv": "claim_id,issue_id,issue_name,metric,value\nC001,OTH-general,Assorted complaints about the app,complaint_count,14\nC002,OTH-general,Assorted complaints about the app,severity_sum,28\nC003,OTH-general,Assorted complaints about the app,mean_severity,2.000000\nC004,OTH-general,Assorted complaints about the app,priority_score,28\nC005,BIL-premium_paywall_free_limits,Free users lose skip and song selection,complaint_count,4\nC006,BIL-premium_paywall_free_limits,Free users lose skip and song selection,severity_sum,12\nC007,BIL-premium_paywall_free_limits,Free users lose skip and song selection,mean_severity,3.000000\nC008,BIL-premium_paywall_free_limits,Free users lose skip and song selection,priority_score,12\nC009,USA-shuffle_queue_controls,Shuffle forced and replay controls removed,complaint_count,3\nC010,USA-shuffle_queue_controls,Shuffle forced and replay controls removed,severity_sum,9\nC011,USA-shuffle_queue_controls,Shuffle forced and replay controls removed,mean_severity,3.000000\nC012,USA-shuffle_queue_controls,Shuffle forced and replay controls removed,priority_score,9\nC013,USA-general,Ads, bugs, and general dissatisfaction,complaint_count,4\nC014,USA-general,Ads, bugs, and general dissatisfaction,severity_sum,8\nC015,USA-general,Ads, bugs, and general dissatisfaction,mean_severity,2.000000\nC016,USA-general,Ads, bugs, and general dissatisfaction,priority_score,8\nC017,USA-ui_redesign,Basic player features removed in redesign,complaint_count,3\nC018,USA-ui_redesign,Basic player features removed in redesign,severity_sum,8\nC019,USA-ui_redesign,Basic player features removed in redesign,mean_severity,2.666667\nC020,USA-ui_redesign,Basic player features removed in redesign,priority_score,8\nC021,ACC-general,App stuck on loading and ad-heavy login,complaint_count,2\nC022,ACC-general,App stuck on loading and ad-heavy login,severity_sum,7\nC023,ACC-general,App stuck on loading and ad-heavy login,mean_severity,3.500000\nC024,ACC-general,App stuck on loading and ad-heavy login,priority_score,7\nC025,BIL-general,Restrictions and ads push premium upgrade,complaint_count,3\nC026,BIL-general,Restrictions and ads push premium upgrade,severity_sum,7\nC027,BIL-general,Restrictions and ads push premium upgrade,mean_severity,2.333333\nC028,BIL-general,Restrictions and ads push premium upgrade,priority_score,7\nC029,USA-ads_interruptions,Frequent ads interrupting songs,complaint_count,3\nC030,USA-ads_interruptions,Frequent ads interrupting songs,severity_sum,6\nC031,USA-ads_interruptions,Frequent ads interrupting songs,mean_severity,2.000000\nC032,USA-ads_interruptions,Frequent ads interrupting songs,priority_score,6\nC033,USA-library_playlist_management,Playlist shuffling and homescreen redesign,complaint_count,2\nC034,USA-library_playlist_management,Playlist shuffling and homescreen redesign,severity_sum,5\nC035,USA-library_playlist_management,Playlist shuffling and homescreen redesign,mean_severity,2.500000\nC036,USA-library_playlist_management,Playlist shuffling and homescreen redesign,priority_score,5\nC037,ACC-password_reset,Password rejected during sign-in,complaint_count,1\nC038,ACC-password_reset,Password rejected during sign-in,severity_sum,4\nC039,ACC-password_reset,Password rejected during sign-in,mean_severity,4.000000\nC040,ACC-password_reset,Password rejected during sign-in,priority_score,4"
+}

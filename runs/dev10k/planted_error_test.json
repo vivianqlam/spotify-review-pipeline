@@ -1,0 +1,84 @@
+{
+  "catch_rate": 1.0,
+  "caught_by_verifier_comparison": 25,
+  "note": "Test copy only; real records are unchanged and these rows never enter business aggregates.",
+  "planted": 25,
+  "planted_labels": {
+    "0a5ff524-27b1-4f3b-a761-17ca48ee731d": {
+      "topic": "usability"
+    },
+    "0fde025e-b488-4a94-93d9-17dbc71f554c": {
+      "topic": "access"
+    },
+    "13060528-5cb9-49cd-9eab-d2cb0a73507a": {
+      "topic": "access"
+    },
+    "130820bc-da31-46d3-9088-b09cb62cf241": {
+      "topic": "support"
+    },
+    "159ab9c6-184d-4c11-902b-10219e66ad03": {
+      "topic": "billing"
+    },
+    "166ab522-30ef-4397-8a4b-3ce7bca2d65b": {
+      "topic": "catalog"
+    },
+    "1cd2d5f0-11d2-4964-bf94-4aa302fda536": {
+      "topic": "playback"
+    },
+    "1cf9682f-563b-4262-8303-fa456a65b819": {
+      "topic": "catalog"
+    },
+    "1eeec686-2f8a-40ca-84a1-84237c533849": {
+      "topic": "downloads"
+    },
+    "240ee39c-79d9-4e71-89fc-08112615e15f": {
+      "topic": "usability"
+    },
+    "2bade2f8-b715-4c6e-a3dd-8abcaa36c7b3": {
+      "topic": "billing"
+    },
+    "3f3e6d46-79bb-4ee1-ad73-6e92bbf3e5b8": {
+      "topic": "other"
+    },
+    "45d5684a-782d-4dad-9103-610b6b571356": {
+      "topic": "access"
+    },
+    "5d6a976f-f58a-4d1c-9986-554260696cff": {
+      "topic": "usability"
+    },
+    "69a531aa-dd14-4b9d-9798-60562d5ef163": {
+      "topic": "access"
+    },
+    "7027795d-011c-434e-84d8-42020f25ea19": {
+      "topic": "billing"
+    },
+    "7bca9a00-cc66-4f2b-8fef-9f891cd49f9a": {
+      "topic": "usability"
+    },
+    "7c823f01-46fd-4b8f-a2e1-538595c086d5": {
+      "topic": "catalog"
+    },
+    "82f880ac-c61d-40ae-b579-8b0279bf4e8b": {
+      "topic": "downloads"
+    },
+    "a3fa0b8e-8bcc-4a95-b3b4-6074e1614f8b": {
+      "topic": "catalog"
+    },
+    "ac445952-36e0-4827-8909-1aef1c26613c": {
+      "topic": "billing"
+    },
+    "b05b3af3-3736-4eb7-b048-73d7774ff865": {
+      "topic": "playback"
+    },
+    "b48197c0-f97e-4d25-860a-6f7b22f926d7": {
+      "topic": "billing"
+    },
+    "bab9a4c7-bf65-4c00-be64-f7efcba4e175": {
+      "topic": "usability"
+    },
+    "d197da5e-97e1-4a54-ae92-f4b43c2d535e": {
+      "topic": "catalog"
+    }
+  },
+  "synthetic": true
+}

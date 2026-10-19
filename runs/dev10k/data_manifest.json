@@ -1,0 +1,18 @@
+{
+  "input_csv": "data/analysis_10000.csv",
+  "input_sha256": "eaa62ca6d44d717302904a9c922e99b0b4584d174309cb45295ecbc2ba2a91b5",
+  "label_config": "claude-haiku-5-5+enrich_v1+schema_v1+effort-low+thinking-off",
+  "models": {
+    "enrich": "claude-haiku-5-5",
+    "group": "claude-haiku-5-5",
+    "memo": "claude-sonnet-5-5",
+    "verify": "claude-haiku-5-5"
+  },
+  "prompts": {
+    "enrich_v1": "4ddc529461e2f97680ffdd1acea4d7ce1c3d66a112a43e83e022ead5f38740c9",
+    "group_v1": "2994920b552924665d8539602eb34d98b56942d19f681967da461cd662e35fa3",
+    "memo_v1": "945c6a2af2a049e102038610e08182499d1fb61859769cd4e1278cc3a5ca3cfb",
+    "verify_v1": "bb6048d80eef2ac1b3d1036d15591e358c11b2dfe0d1d98286e3bab5c0ab9f24"
+  },
+  "run_id": "dev10k"
+}

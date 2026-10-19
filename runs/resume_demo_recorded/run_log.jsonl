@@ -1,0 +1,5 @@
+{"at": 1792435738.353858, "distinct": 484189, "rows": 660622, "seconds": 10.86, "stage": "ingest"}
+{"at": 1792435787.025617, "counts": {"completed": 500, "empty_rows": 13, "pending": 483689, "source_rows": 660622}, "mode": "sync", "phase": "initial", "result": {"completed": 500, "failed_requests": 0, "quarantined": 0, "retry": 0, "wall_seconds": 48.44}, "seconds": 48.44, "spent_total": 0.25698575, "stage": "enrich", "workers": 1}
+{"at": 1792435788.1847522, "completed": 63824, "name": "before", "stage": "checkpoint"}
+{"at": 1792435838.78209, "counts": {"completed": 998, "empty_rows": 13, "pending": 483191, "source_rows": 660622}, "mode": "sync", "phase": "resume", "result": {"completed": 498, "failed_requests": 0, "quarantined": 0, "retry": 2, "wall_seconds": 50.46}, "seconds": 50.46, "spent_total": 0.26558305, "stage": "enrich", "workers": 1}
+{"at": 1792435839.955998, "completed": 77704, "name": "after", "stage": "checkpoint"}

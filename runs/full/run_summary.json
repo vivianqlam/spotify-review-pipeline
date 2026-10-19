@@ -1,0 +1,61 @@
+{
+  "budget_usd": 10.0,
+  "calls_by_role": {
+    "enrich": {
+      "attempts": 9693,
+      "cache_read": 17309912,
+      "cache_write": 1786,
+      "cost_usd": 4.572191434999986,
+      "failed": 0,
+      "input_tokens": 21216507,
+      "output_tokens": 13666176,
+      "succeeded": 9693
+    },
+    "group": {
+      "attempts": 1,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cost_usd": 0.0025315,
+      "failed": 0,
+      "input_tokens": 16270,
+      "output_tokens": 1809,
+      "succeeded": 1
+    },
+    "memo": {
+      "attempts": 1,
+      "cache_read": 0,
+      "cache_write": 535,
+      "cost_usd": 0.0283495,
+      "failed": 0,
+      "input_tokens": 4676,
+      "output_tokens": 1766,
+      "succeeded": 1
+    },
+    "verify": {
+      "attempts": 20,
+      "cache_read": 10773,
+      "cache_write": 567,
+      "cost_usd": 0.009564405,
+      "failed": 0,
+      "input_tokens": 42483,
+      "output_tokens": 10275,
+      "succeeded": 20
+    }
+  },
+  "counts": {
+    "completed": 484183,
+    "empty_rows": 13,
+    "quarantined": 6,
+    "source_rows": 660622
+  },
+  "global_spend_usd": 4.860853,
+  "label_config": "claude-haiku-5-5+enrich_v1+schema_v1+effort-low+thinking-off",
+  "models": {
+    "enrich": "claude-haiku-5-5",
+    "group": "claude-haiku-5-5",
+    "memo": "claude-sonnet-5-5",
+    "verify": "claude-haiku-5-5"
+  },
+  "run_cost_usd": 4.612637,
+  "run_id": "full"
+}

@@ -1,0 +1,170 @@
+{
+  "area_claims_csv": "claim_id,area,topics,metric,value\nA01,access,access,complaint_count,11697\nA02,access,access,severity_sum,44523\nA03,access,access,mean_severity,3.806361\nA04,access,access,share_of_all_complaints_pct,3.9\nA05,access,access,severity_4_plus,9670\nA06,access,access,cancellations,745\nA07,usability,usability,complaint_count,75616\nA08,usability,usability,severity_sum,173911\nA09,usability,usability,mean_severity,2.299923\nA10,usability,usability,share_of_all_complaints_pct,25.4\nA11,usability,usability,severity_4_plus,554\nA12,usability,usability,cancellations,7498\nA13,playback,playback+downloads,complaint_count,40662\nA14,playback,playback+downloads,severity_sum,126830\nA15,playback,playback+downloads,mean_severity,3.119128\nA16,playback,playback+downloads,share_of_all_complaints_pct,13.7\nA17,playback,playback+downloads,severity_4_plus,10936\nA18,playback,playback+downloads,cancellations,2297\nA19,billing/support,billing+support,complaint_count,55661\nA20,billing/support,billing+support,severity_sum,144756\nA21,billing/support,billing+support,mean_severity,2.600672\nA22,billing/support,billing+support,share_of_all_complaints_pct,18.7\nA23,billing/support,billing+support,severity_4_plus,2515\nA24,billing/support,billing+support,cancellations,13412\nA25,all,all,complaint_count,297134",
+  "context": {
+    "completed": 660603,
+    "golden_50_human_labels": {
+      "intent_agreement_pct": "90.0",
+      "n": 50,
+      "severity_exact_pct": "84.0",
+      "severity_mae": "0.20",
+      "topic_agreement_pct": "80.0"
+    },
+    "independent_verifier": {
+      "intent_agreement_pct": "90.5",
+      "sample": 1000,
+      "severity_agreement_pct": "85.5",
+      "topic_agreement_pct": "84.9"
+    },
+    "quarantined_empty_text": 13,
+    "quarantined_other": 6,
+    "review_window": "2022-05 to 2023-11 (first and last months partial)",
+    "source_rows": 660622
+  },
+  "evidence_pack": [
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "App's not perfect. Still got a long way to go. It's the best out there though.",
+          "review_id": "54c143cd-66a8-4935-85e7-acc012e4af60",
+          "severity": 2
+        },
+        {
+          "intent": "cancellation",
+          "quote": "Very wrost app i uninstalled this app very very bad application",
+          "review_id": "51886740-111a-4006-a56a-3a9dab9954e2",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "I hate 👎 this Application, Because I love Quran.",
+          "review_id": "37ec3c7f-1f0e-41f1-b0ff-dfe34ad681d5",
+          "severity": 2
+        }
+      ],
+      "issue_id": "OTH-general",
+      "name": "General dissatisfaction with the app"
+    },
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "gives you upwards of 4 ads, each 30 seconds long, all unskippable, either every time you skip a song, or just after every few songs. it is disproportionate how many ads you get for the amount of music you get to actually",
+          "review_id": "25b3b4c8-151c-4bc7-8c0a-9df1062ae76c",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "I love this app. It plays my favorite ads. But every 12 or so ads these weird songs start playing. It's pretty rare but it's still annoying. Please fix this Spotify",
+          "review_id": "45e2aab4-449c-4c23-83d0-69bd568a9e08",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "amazing app. but i removed this one star cause there are too many ads. i mean it kind of makes sense that you guys have a subscription for it, but please make the normal version with a little less",
+          "review_id": "92bd7ff4-4322-4406-9033-f13e3079aa74",
+          "severity": 2
+        }
+      ],
+      "issue_id": "USA-ads_interruptions",
+      "name": "Too many unskippable ads"
+    },
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "I am giving 5 ⭐. Give me a discount coupon atleast",
+          "review_id": "834d25fa-6fe8-41ef-85c1-38f6d1729596",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "Frick this app we literally have to pay for everything 😒",
+          "review_id": "32593aa6-298e-4b3a-a0f2-5b65d567a86e",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "I just want to say one thing I like all the things about Spotify but into get premium for downloading the song",
+          "review_id": "db9aa445-bc72-465c-99c8-ee52d3243539",
+          "severity": 2
+        }
+      ],
+      "issue_id": "BIL-general",
+      "name": "Frustration with paywalled features generally"
+    },
+    {
+      "examples": [
+        {
+          "intent": "cancellation",
+          "quote": "Is getting worse each update. The recent update is so worse than the oldest one. I agree with the reviews below, it got more worse now that it wouldnt even let us shuffle, play previous track, repeat",
+          "review_id": "e7747485-42c5-4bb9-b1e2-1b4044eedb5a",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "Highly recommend this app! The only flaws are how many skips you get. Hope you enjoy if you decide to get it!",
+          "review_id": "8ce24dbe-f1fe-45cd-bd15-dc210575e5c6",
+          "severity": 2
+        },
+        {
+          "intent": "cancellation",
+          "quote": "we can't hear the song well. that's why i give this app 1 star. it's better to listen songs on youtube.",
+          "review_id": "5332a9f1-d7ff-4062-ad9f-47cd3cc7bacc",
+          "severity": 2
+        }
+      ],
+      "issue_id": "BIL-premium_paywall_free_limits",
+      "name": "Basic features locked behind premium"
+    },
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "Great app. Although both my fiance and I are having problems of the same 4 songs playing on repeat frequently. This would be well playing Playlist with more songs then that. Please fix this bug.",
+          "review_id": "54dca140-19f7-4c8c-a176-19fcdeef283d",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "2023 suddenly off, why?? I try to clear my chace and then restart my phone, but still same. Not Happy!!",
+          "review_id": "c2c38440-5dce-479b-aac4-e336b0d8cb79",
+          "severity": 4
+        },
+        {
+          "intent": "complaint",
+          "quote": "Your app is suppose to stay on when you go on another app and is not letting me",
+          "review_id": "ec296b31-61cb-4588-ba80-e8ab992b2281",
+          "severity": 3
+        }
+      ],
+      "issue_id": "PLA-general",
+      "name": "Frequent bugs during playback"
+    },
+    {
+      "examples": [
+        {
+          "intent": "complaint",
+          "quote": "Too many adds it's irritating bru",
+          "review_id": "a87d75fe-f43d-4fdb-8f0b-ba3f7ff6560e",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "Nice app and many songs in Hindi and more.but adssssssssss",
+          "review_id": "d78b88f0-d337-402a-a078-e11fc0a58e2c",
+          "severity": 2
+        },
+        {
+          "intent": "complaint",
+          "quote": "You can't even decide what song to play next. The most useless app. They just want us to buy premium",
+          "review_id": "4a0768cf-bcbb-47b8-be2a-61f0fc16681b",
+          "severity": 3
+        }
+      ],
+      "issue_id": "USA-general",
+      "name": "Ads and restrictive shuffle-only playback"
+    }
+  ],
+  "issue_claims_csv": "claim_id,issue_id,issue_name,metric,value\nC001,OTH-general,General dissatisfaction with the app,complaint_count,93866\nC002,OTH-general,General dissatisfaction with the app,severity_sum,184272\nC003,OTH-general,General dissatisfaction with the app,mean_severity,1.963139\nC004,OTH-general,General dissatisfaction with the app,priority_score,184272\nC005,USA-ads_interruptions,Too many unskippable ads,complaint_count,29771\nC006,USA-ads_interruptions,Too many unskippable ads,severity_sum,62012\nC007,USA-ads_interruptions,Too many unskippable ads,mean_severity,2.082967\nC008,USA-ads_interruptions,Too many unskippable ads,priority_score,62012\nC009,BIL-general,Frustration with paywalled features generally,complaint_count,24254\nC010,BIL-general,Frustration with paywalled features generally,severity_sum,61012\nC011,BIL-general,Frustration with paywalled features generally,mean_severity,2.515544\nC012,BIL-general,Frustration with paywalled features generally,priority_score,61012\nC013,BIL-premium_paywall_free_limits,Basic features locked behind premium,complaint_count,17349\nC014,BIL-premium_paywall_free_limits,Basic features locked behind premium,severity_sum,47212\nC015,BIL-premium_paywall_free_limits,Basic features locked behind premium,mean_severity,2.721310\nC016,BIL-premium_paywall_free_limits,Basic features locked behind premium,priority_score,47212\nC017,PLA-general,Frequent bugs during playback,complaint_count,12266\nC018,PLA-general,Frequent bugs during playback,severity_sum,37202\nC019,PLA-general,Frequent bugs during playback,mean_severity,3.032937\nC020,PLA-general,Frequent bugs during playback,priority_score,37202\nC021,USA-general,Ads and restrictive shuffle-only playback,complaint_count,16330\nC022,USA-general,Ads and restrictive shuffle-only playback,severity_sum,37056\nC023,USA-general,Ads and restrictive shuffle-only playback,mean_severity,2.269198\nC024,USA-general,Ads and restrictive shuffle-only playback,priority_score,37056\nC025,USA-shuffle_queue_controls,Shuffle forced, controls removed,complaint_count,13603\nC026,USA-shuffle_queue_controls,Shuffle forced, controls removed,severity_sum,36050\nC027,USA-shuffle_queue_controls,Shuffle forced, controls removed,mean_severity,2.650151\nC028,USA-shuffle_queue_controls,Shuffle forced, controls removed,priority_score,36050\nC029,ACC-login_failure,Cannot log in via phone or Facebook,complaint_count,6445\nC030,ACC-login_failure,Cannot log in via phone or Facebook,severity_sum,25037\nC031,ACC-login_failure,Cannot log in via phone or Facebook,mean_severity,3.884717\nC032,ACC-login_failure,Cannot log in via phone or Facebook,priority_score,25037\nC033,PLA-stops_skips_pauses,Music stops unexpectedly,complaint_count,6623\nC034,PLA-stops_skips_pauses,Music stops unexpectedly,severity_sum,20756\nC035,PLA-stops_skips_pauses,Music stops unexpectedly,mean_severity,3.133927\nC036,PLA-stops_skips_pauses,Music stops unexpectedly,priority_score,20756\nC037,USA-ui_redesign,Unwanted homepage and layout changes,complaint_count,8668\nC038,USA-ui_redesign,Unwanted homepage and layout changes,severity_sum,20691\nC039,USA-ui_redesign,Unwanted homepage and layout changes,mean_severity,2.387056\nC040,USA-ui_redesign,Unwanted homepage and layout changes,priority_score,20691"
+}

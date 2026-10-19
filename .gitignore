@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/*.csv
+data/*.json
+runs/*/state.db*
+runs/*/cache.db*
+cost/cache_*/
+*.db-journal
+local-reference.json
+# large/duplicate run artifacts (compressed copies live in grading/)
+runs/full/records.jsonl
+runs/full/enriched.jsonl
+runs/full/calls.jsonl
+runs/full/membership.csv
+runs/*/state.db
+docs/*.m4v
+self-check.json.tmp

@@ -1,0 +1,208 @@
+{
+  "allow_multi_issue": false,
+  "issues": [
+    {
+      "description": "Users report the app freezing on the loading screen or being unable to get into their account, alongside excessive ads.",
+      "issue_id": "ACC-general",
+      "name": "App stuck on loading and ad-heavy login",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "general",
+      "topic": "access"
+    },
+    {
+      "description": "Users say the app will not accept their password when trying to log in.",
+      "issue_id": "ACC-password_reset",
+      "name": "Password rejected during sign-in",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "password_reset",
+      "topic": "access"
+    },
+    {
+      "description": "A user feels the update forces premium payment for the creator's benefit, making the free app unusable.",
+      "issue_id": "BIL-charges_refunds",
+      "name": "Premium-only features making app worthless",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "charges_refunds",
+      "topic": "billing"
+    },
+    {
+      "description": "Users feel too many restrictions and ads make the app useless unless they pay for premium.",
+      "issue_id": "BIL-general",
+      "name": "Restrictions and ads push premium upgrade",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "general",
+      "topic": "billing"
+    },
+    {
+      "description": "Users say the recent update restricted skipping, going back, and choosing specific songs to premium subscribers only.",
+      "issue_id": "BIL-premium_paywall_free_limits",
+      "name": "Free users lose skip and song selection",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "premium_paywall_free_limits",
+      "topic": "billing"
+    },
+    {
+      "description": "Users say many songs are absent from the catalog and gospel music coverage is thin.",
+      "issue_id": "CAT-general",
+      "name": "Missing songs and limited gospel music",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "general",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users report lyrics appear for some songs but not others, and sometimes fail to show at all.",
+      "issue_id": "CAT-lyrics",
+      "name": "Lyrics missing or inconsistently shown",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "lyrics",
+      "topic": "catalog"
+    },
+    {
+      "description": "A user moved to Spotify to listen to a specific podcast and stopped using Pandora.",
+      "issue_id": "CAT-podcasts_audiobooks",
+      "name": "Switched from Pandora for podcasts",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "podcasts_audiobooks",
+      "topic": "catalog"
+    },
+    {
+      "description": "Users dislike recommendations inserted into their playlists and feel the recommendation quality or variety has declined.",
+      "issue_id": "CAT-recommendations_repetition",
+      "name": "Recommendations clutter playlists and changed",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "recommendations_repetition",
+      "topic": "catalog"
+    },
+    {
+      "description": "A user says song downloads stall in the background until the app is reopened.",
+      "issue_id": "DOW-download_failures",
+      "name": "Background downloads get stuck",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "download_failures",
+      "topic": "downloads"
+    },
+    {
+      "description": "A user reports that offline playback does not work.",
+      "issue_id": "DOW-offline_playback",
+      "name": "Offline mode not working",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "offline_playback",
+      "topic": "downloads"
+    },
+    {
+      "description": "Users leave brief negative reviews calling the app worst or useless after updates, with some citing voice assistant playback failures and other unrelated complaints.",
+      "issue_id": "OTH-general",
+      "name": "Assorted complaints about the app",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "general",
+      "topic": "other"
+    },
+    {
+      "description": "A premium user says the app fails to connect over Wi-Fi while mobile data works, and some songs sound worse than on other apps.",
+      "issue_id": "PLA-connectivity_and_devices",
+      "name": "Wi-Fi connection failures and poor quality",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "connectivity_and_devices",
+      "topic": "playback"
+    },
+    {
+      "description": "A user says the latest update makes the app crash so it cannot be opened.",
+      "issue_id": "PLA-crash_or_wont_open",
+      "name": "App crashes or won't open after update",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "crash_or_wont_open",
+      "topic": "playback"
+    },
+    {
+      "description": "A user reports music stops midway and does not return to where it left off, starting a different song instead.",
+      "issue_id": "PLA-stops_skips_pauses",
+      "name": "Playback stops and does not resume",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "stops_skips_pauses",
+      "topic": "playback"
+    },
+    {
+      "description": "Users say ads play every song or two, are very loud, and are excessive even for free listeners.",
+      "issue_id": "USA-ads_interruptions",
+      "name": "Frequent ads interrupting songs",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "ads_interruptions",
+      "topic": "usability"
+    },
+    {
+      "description": "Users complain about premium ad prompts, ads replacing songs, and bugs such as broken music adjustment, leading some to uninstall.",
+      "issue_id": "USA-general",
+      "name": "Ads, bugs, and general dissatisfaction",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "general",
+      "topic": "usability"
+    },
+    {
+      "description": "Users dislike playlists playing songs out of order and the new homescreen that makes browsing one item at a time.",
+      "issue_id": "USA-library_playlist_management",
+      "name": "Playlist shuffling and homescreen redesign",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "library_playlist_management",
+      "topic": "usability"
+    },
+    {
+      "description": "Users say they cannot pick, repeat, or replay specific songs or sections, and that the app forces shuffle.",
+      "issue_id": "USA-shuffle_queue_controls",
+      "name": "Shuffle forced and replay controls removed",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "shuffle_queue_controls",
+      "topic": "usability"
+    },
+    {
+      "description": "Users say recent updates removed basic music player functions such as going back a few seconds and replaying parts, while one user praised the blend feature.",
+      "issue_id": "USA-ui_redesign",
+      "name": "Basic player features removed in redesign",
+      "name_source": "claude-haiku-5-5:msg_011CgC5GAvKh5bdRQ7RzzX1y",
+      "subtopic": "ui_redesign",
+      "topic": "usability"
+    }
+  ],
+  "membership_rule": "one issue per completed complaint/cancellation record: topic + first matching keyword subtopic, else general",
+  "rules": {
+    "access": [
+      "password_reset",
+      "account_hacked_or_lost",
+      "login_failure",
+      "signup"
+    ],
+    "billing": [
+      "premium_paywall_free_limits",
+      "charges_refunds",
+      "price",
+      "subscription_management"
+    ],
+    "catalog": [
+      "lyrics",
+      "recommendations_repetition",
+      "search",
+      "podcasts_audiobooks",
+      "missing_or_removed_content"
+    ],
+    "downloads": [
+      "downloads_disappear",
+      "offline_playback",
+      "download_failures"
+    ],
+    "other": [],
+    "playback": [
+      "crash_or_wont_open",
+      "connectivity_and_devices",
+      "stops_skips_pauses",
+      "lag_loading",
+      "audio_quality",
+      "battery_storage_data"
+    ],
+    "support": [],
+    "usability": [
+      "ads_interruptions",
+      "shuffle_queue_controls",
+      "library_playlist_management",
+      "ui_redesign"
+    ]
+  }
+}
